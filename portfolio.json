@@ -1,9 +1,9 @@
 {
   "startingCashUSD": 1000,
   "cashUSD": 1000,
-  "holdingsUSD": 0,
-  "totalValueUSD": 1000,
-  "updatedAt": null,
+  "holdingsUSD": 0.0,
+  "totalValueUSD": 1000.0,
+  "updatedAt": "2026-08-30T21:34:26Z",
   "positions": {},
   "tradeLog": []
 }
