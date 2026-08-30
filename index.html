@@ -1,0 +1,407 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>copytrade — portefeuille virtuel</title>
+<style>
+  :root {
+    --bg:        #07090a;
+    --bg-raised: #0d1113;
+    --rule:      #1b2226;
+    --rule-soft: #12181b;
+    --text:      #dbe3e6;
+    --text-dim:  #6d7d84;
+    --text-faint:#414e54;
+    --up:        #5ef2a0;
+    --down:      #ff6b5e;
+    --accent:    #5ef2a0;
+    --amber:     #f5c26b;
+
+    --mono: ui-monospace, "SF Mono", "JetBrains Mono", "Menlo", "Consolas", monospace;
+
+    --step-hero: clamp(2.8rem, 1.2rem + 6vw, 5.5rem);
+    --step-stat: clamp(1.1rem, 0.9rem + 0.9vw, 1.6rem);
+    --gutter:    clamp(1.25rem, 0.6rem + 2.6vw, 3.5rem);
+  }
+
+  * { box-sizing: border-box; }
+
+  html { -webkit-text-size-adjust: 100%; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--mono);
+    font-size: 14px;
+    line-height: 1.5;
+    font-variant-numeric: tabular-nums;
+    /* Faint phosphor bloom at the top so the page reads as a lit screen
+       rather than a flat dark rectangle. */
+    background-image: radial-gradient(120% 60% at 50% -20%, #0f1a18 0%, transparent 70%);
+    background-repeat: no-repeat;
+  }
+
+  .wrap { max-width: 1180px; margin: 0 auto; padding: 0 var(--gutter) 6rem; }
+
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.5rem 1.5rem;
+    padding: 2.5rem 0 1.5rem;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  .brand {
+    font-size: 0.8rem;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin: 0;
+    font-weight: 500;
+  }
+  .brand::before { content: "\25B8 "; color: var(--text-faint); }
+
+  .meta { margin-left: auto; color: var(--text-faint); font-size: 0.75rem; letter-spacing: 0.08em; }
+  .meta b { color: var(--text-dim); font-weight: 500; }
+
+  .hero { padding: clamp(2rem, 4vw, 3.5rem) 0 2rem; }
+
+  .label {
+    font-size: 0.68rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--text-faint);
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
+  .total {
+    font-size: var(--step-hero);
+    line-height: 0.95;
+    letter-spacing: -0.035em;
+    font-weight: 500;
+    margin: 0;
+  }
+
+  .total-delta { font-size: var(--step-stat); letter-spacing: -0.01em; margin-top: 0.9rem; }
+
+  .rail {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1px;
+    background: var(--rule);
+    border-block: 1px solid var(--rule);
+    margin-top: 2.5rem;
+  }
+  .rail > div { background: var(--bg); padding: 1.1rem 1.25rem 1.25rem; }
+  .rail .v { font-size: var(--step-stat); letter-spacing: -0.02em; }
+
+  section { margin-top: 3.5rem; }
+
+  h2 {
+    font-size: 0.72rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    font-weight: 500;
+    margin: 0 0 1rem;
+    display: flex;
+    align-items: baseline;
+    gap: 0.75rem;
+  }
+  h2::after { content: ""; flex: 1; height: 1px; background: var(--rule); }
+  h2 .count { color: var(--text-faint); letter-spacing: 0.1em; }
+
+  /* Wide tables scroll inside their own box; the page body never does. */
+  .scroller { overflow-x: auto; margin-inline: calc(var(--gutter) * -1); padding-inline: var(--gutter); }
+
+  table { width: 100%; border-collapse: collapse; white-space: nowrap; }
+
+  th {
+    text-align: right;
+    font-size: 0.66rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--text-faint);
+    font-weight: 500;
+    padding: 0 0.9rem 0.65rem;
+    border-bottom: 1px solid var(--rule);
+  }
+  th:first-child, td:first-child { text-align: left; padding-left: 0; }
+  th:last-child,  td:last-child  { padding-right: 0; }
+
+  td { text-align: right; padding: 0.7rem 0.9rem; border-bottom: 1px solid var(--rule-soft); }
+
+  tbody tr:hover td { background: var(--bg-raised); }
+
+  .sym { color: var(--text); }
+  .mint { color: var(--text-faint); font-size: 0.72rem; display: block; margin-top: 0.15rem; }
+
+  .up   { color: var(--up); }
+  .down { color: var(--down); }
+  .dim  { color: var(--text-dim); }
+
+  .tag {
+    display: inline-block;
+    min-width: 3.6rem;
+    text-align: center;
+    padding: 0.1rem 0.5rem;
+    font-size: 0.68rem;
+    letter-spacing: 0.12em;
+    border: 1px solid currentColor;
+    border-radius: 2px;
+  }
+  .tag.buy  { color: var(--up); }
+  .tag.sell { color: var(--amber); }
+
+  a { color: inherit; text-decoration: none; border-bottom: 1px solid var(--text-faint); }
+  a:hover { border-bottom-color: var(--accent); color: var(--accent); }
+
+  .empty {
+    color: var(--text-faint);
+    border: 1px dashed var(--rule);
+    padding: 2rem 1.5rem;
+    text-align: center;
+    font-size: 0.85rem;
+  }
+
+  footer {
+    margin-top: 4rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--rule);
+    color: var(--text-faint);
+    font-size: 0.72rem;
+    letter-spacing: 0.05em;
+  }
+
+  @media (max-width: 620px) {
+    .mint { display: none; }
+    td, th { padding-inline: 0.6rem; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1 class="brand">copytrade / solana</h1>
+    <div class="meta">
+      m&agrave;j <b id="updated">&mdash;</b> &nbsp;&middot;&nbsp; portefeuille virtuel
+    </div>
+  </header>
+
+  <div class="hero">
+    <span class="label">Valeur totale</span>
+    <p class="total" id="total">&mdash;</p>
+    <div class="total-delta dim" id="delta">&nbsp;</div>
+  </div>
+
+  <div class="rail">
+    <div><span class="label">Cash</span><div class="v" id="cash">&mdash;</div></div>
+    <div><span class="label">Positions</span><div class="v" id="holdings">&mdash;</div></div>
+    <div><span class="label">P&amp;L r&eacute;alis&eacute;</span><div class="v" id="realized">&mdash;</div></div>
+    <div><span class="label">Trades copi&eacute;s</span><div class="v" id="ntrades">&mdash;</div></div>
+  </div>
+
+  <section>
+    <h2>Positions ouvertes <span class="count" id="npos"></span></h2>
+    <div id="positions"></div>
+  </section>
+
+  <section>
+    <h2>Journal des trades <span class="count" id="nlog"></span></h2>
+    <div id="log"></div>
+  </section>
+
+  <footer>
+    Lecture seule. Le bot tourne toutes les 10 min via GitHub Actions et r&eacute;&eacute;crit
+    <code>portfolio.json</code>. Aucun fonds r&eacute;el n'est engag&eacute;.
+  </footer>
+
+</div>
+
+<script>
+"use strict";
+
+var $ = function (id) { return document.getElementById(id); };
+
+// Every dynamic value below is passed through esc() before it reaches the DOM.
+function esc(value) {
+  return String(value === null || value === undefined ? "" : value)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+function usd(n, digits) {
+  if (n === null || n === undefined || isNaN(n)) return "—";
+  var d = digits === undefined ? 2 : digits;
+  return "$" + Number(n).toLocaleString("en-US", {
+    minimumFractionDigits: d,
+    maximumFractionDigits: d
+  });
+}
+
+// Meme-coin prices span many orders of magnitude, so scale the precision to
+// the value instead of forcing a fixed number of decimals.
+function price(n) {
+  if (n === null || n === undefined || isNaN(n)) return "—";
+  if (n >= 1) return usd(n, 4);
+  if (n >= 0.0001) return usd(n, 6);
+  return "$" + Number(n).toExponential(3);
+}
+
+function qty(n) {
+  if (n === null || n === undefined || isNaN(n)) return "—";
+  if (n >= 1000) return Number(n).toLocaleString("en-US", { maximumFractionDigits: 2 });
+  return Number(n).toLocaleString("en-US", { maximumFractionDigits: 6 });
+}
+
+function signed(n, fmt) {
+  if (n === null || n === undefined || isNaN(n)) return '<span class="dim">—</span>';
+  var cls = n > 0 ? "up" : (n < 0 ? "down" : "dim");
+  var sign = n > 0 ? "+" : "";
+  var text = fmt ? fmt(n) : usd(n);
+  return '<span class="' + cls + '">' + sign + esc(text) + "</span>";
+}
+
+function when(iso) {
+  if (!iso) return "—";
+  var d = new Date(iso);
+  if (isNaN(d.getTime())) return esc(iso);
+  return d.toLocaleString("fr-FR", {
+    day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit"
+  });
+}
+
+function renderPositions(positions) {
+  var entries = Object.keys(positions || {}).map(function (mint) {
+    return [mint, positions[mint]];
+  });
+
+  $("npos").textContent = entries.length ? "(" + entries.length + ")" : "";
+
+  if (!entries.length) {
+    $("positions").innerHTML =
+      '<p class="empty">Aucune position ouverte. Le bot ach&egrave;tera d&egrave;s qu\'un wallet suivi fera un achat.</p>';
+    return;
+  }
+
+  entries.sort(function (a, b) { return (b[1].valueUSD || 0) - (a[1].valueUSD || 0); });
+
+  var rows = entries.map(function (pair) {
+    var mint = pair[0], p = pair[1];
+    var cost = p.amount * p.avgCostUSD;
+    var value = (p.valueUSD === undefined) ? null : p.valueUSD;
+    var pnl = value === null ? null : value - cost;
+    var pct = (value === null || cost === 0) ? null : (pnl / cost) * 100;
+
+    return "<tr>"
+      + '<td><span class="sym">' + esc(p.symbol || mint.slice(0, 6)) + "</span>"
+      +   '<span class="mint">' + esc(mint) + "</span></td>"
+      + "<td>" + esc(qty(p.amount)) + "</td>"
+      + '<td class="dim">' + esc(price(p.avgCostUSD)) + "</td>"
+      + "<td>" + esc(price(p.lastPriceUSD)) + "</td>"
+      + "<td>" + esc(usd(value)) + "</td>"
+      + "<td>" + signed(pnl) + "</td>"
+      + "<td>" + signed(pct, function (n) { return n.toFixed(1) + "%"; }) + "</td>"
+      + "</tr>";
+  }).join("");
+
+  $("positions").innerHTML =
+    '<div class="scroller"><table><thead><tr>'
+    + "<th>Token</th><th>Quantit&eacute;</th><th>Co&ucirc;t moyen</th><th>Prix</th>"
+    + "<th>Valeur</th><th>P&amp;L</th><th>%</th>"
+    + "</tr></thead><tbody>" + rows + "</tbody></table></div>";
+}
+
+function renderLog(tradeLog) {
+  var log = tradeLog || [];
+  $("nlog").textContent = log.length ? "(" + log.length + ")" : "";
+
+  if (!log.length) {
+    $("log").innerHTML = '<p class="empty">Aucun trade copi&eacute; pour l\'instant.</p>';
+    return;
+  }
+
+  var rows = log.map(function (t) {
+    var isBuy = t.action === "BUY";
+    var sym = esc(t.symbol || String(t.mint || "").slice(0, 6));
+    // Signatures are base58 from the RPC; escaped anyway before interpolation.
+    var cell = t.signature
+      ? '<a href="https://solscan.io/tx/' + encodeURIComponent(t.signature)
+        + '" target="_blank" rel="noopener noreferrer">' + sym + "</a>"
+      : sym;
+
+    return "<tr>"
+      + '<td class="dim">' + esc(when(t.timestamp)) + "</td>"
+      + '<td class="dim">' + esc(t.wallet || "—") + "</td>"
+      + '<td><span class="tag ' + (isBuy ? "buy" : "sell") + '">' + esc(t.action) + "</span></td>"
+      + '<td style="text-align:left">' + cell + "</td>"
+      + "<td>" + esc(qty(t.amount)) + "</td>"
+      + "<td>" + esc(price(t.price)) + "</td>"
+      + "<td>" + esc(usd(t.valueUSD)) + "</td>"
+      + "<td>" + (isBuy ? '<span class="dim">—</span>' : signed(t.pnl)) + "</td>"
+      + "</tr>";
+  }).join("");
+
+  $("log").innerHTML =
+    '<div class="scroller"><table><thead><tr>'
+    + "<th>Quand</th><th>Wallet</th><th>Action</th><th>Token</th>"
+    + "<th>Quantit&eacute;</th><th>Prix</th><th>Valeur</th><th>P&amp;L</th>"
+    + "</tr></thead><tbody>" + rows + "</tbody></table></div>";
+}
+
+function render(data) {
+  var start = (data.startingCashUSD === undefined) ? 1000 : data.startingCashUSD;
+  var total = (data.totalValueUSD === undefined) ? (data.cashUSD || 0) : data.totalValueUSD;
+  var diff = total - start;
+  var pct = start ? (diff / start) * 100 : 0;
+
+  $("total").textContent = usd(total);
+  $("delta").innerHTML =
+    signed(diff) + ' <span class="dim">/</span> '
+    + signed(pct, function (n) { return n.toFixed(2) + "%"; })
+    + ' <span class="dim">depuis ' + esc(usd(start, 0)) + "</span>";
+
+  $("cash").textContent = usd(data.cashUSD);
+  $("holdings").textContent = usd(data.holdingsUSD || 0);
+
+  var log = data.tradeLog || [];
+  var realized = log.reduce(function (sum, t) {
+    return sum + (typeof t.pnl === "number" ? t.pnl : 0);
+  }, 0);
+  $("realized").innerHTML = signed(realized);
+  $("ntrades").textContent = String(log.length);
+
+  $("updated").textContent = data.updatedAt ? when(data.updatedAt) : "jamais";
+
+  renderPositions(data.positions);
+  renderLog(log);
+}
+
+function load() {
+  // GitHub Pages caches aggressively; bust it so a fresh bot run shows up.
+  fetch("portfolio.json?t=" + Date.now(), { cache: "no-store" })
+    .then(function (res) {
+      if (!res.ok) throw new Error("HTTP " + res.status);
+      return res.json();
+    })
+    .then(render)
+    .catch(function (err) {
+      $("total").textContent = "—";
+      $("delta").innerHTML =
+        '<span class="down">portfolio.json illisible — ' + esc(err.message) + "</span>";
+    });
+}
+
+load();
+setInterval(load, 60000);
+</script>
+</body>
+</html>

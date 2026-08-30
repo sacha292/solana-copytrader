@@ -1,0 +1,6 @@
+{
+  "positionSizePct": 10,
+  "sellAll": true,
+  "signatureLimit": 15,
+  "rpcUrl": "https://api.mainnet-beta.solana.com"
+}

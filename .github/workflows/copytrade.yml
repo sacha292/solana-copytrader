@@ -1,0 +1,59 @@
+name: copytrade
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: copytrade
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install --quiet requests
+
+      - name: Run copy-trading bot
+        run: python bot.py
+
+      - name: Persist state if it changed
+        run: |
+          set -euo pipefail
+          git config user.name "copytrade-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          if git diff --quiet -- watchlist.json portfolio.json; then
+            echo "No state change, nothing to save."
+            exit 0
+          fi
+
+          git add watchlist.json portfolio.json
+          git commit -m "chore: copy-trade state $(date -u +'%Y-%m-%d %H:%M UTC')"
+
+          # A scheduled run can race with a manual edit of watchlist.json made
+          # on github.com, so rebase onto whatever landed first before pushing.
+          for attempt in 1 2 3; do
+            if git push; then
+              exit 0
+            fi
+            echo "Push rejected, rebasing (attempt $attempt)"
+            git pull --rebase --autostash
+          done
+          echo "Could not push state after 3 attempts" >&2
+          exit 1
