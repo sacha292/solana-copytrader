@@ -75,6 +75,19 @@ def now_iso():
     return datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")
 
 
+def state_fingerprint(portfolio):
+    """Serialise the portfolio ignoring updatedAt.
+
+    The workflow only pushes when a file actually changed. If updatedAt moved on
+    every run the file would always differ, so the bot would commit ~144 times a
+    day with no real news. Comparing fingerprints lets us hold the timestamp
+    still when nothing moved.
+    """
+    snapshot = dict(portfolio)
+    snapshot.pop("updatedAt", None)
+    return json.dumps(snapshot, sort_keys=True, default=str)
+
+
 # --------------------------------------------------------------------------
 # Solana RPC
 # --------------------------------------------------------------------------
@@ -486,6 +499,9 @@ def main():
         log("FATAL: watchlist.json must be a JSON array")
         sys.exit(1)
 
+    previous_updated_at = portfolio.get("updatedAt")
+    fingerprint_before = state_fingerprint(portfolio)
+
     rpc = SolanaRPC(settings.get("rpcUrl") or DEFAULT_RPC_URL)
     jupiter = JupiterClient()
 
@@ -496,6 +512,10 @@ def main():
             watchlist_changed = True
 
     mark_to_market(portfolio, jupiter)
+
+    if state_fingerprint(portfolio) == fingerprint_before:
+        portfolio["updatedAt"] = previous_updated_at
+        log("Nothing moved since the last run")
 
     if watchlist_changed:
         save_json(WATCHLIST_PATH, watchlist)

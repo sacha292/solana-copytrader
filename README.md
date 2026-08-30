@@ -74,3 +74,7 @@ Onglet **Actions** → workflow **copytrade** → **Run workflow**.
   *et* revend le même token entre deux runs, les deux jambes sortent au même prix
   et le P&L est de 0. Le P&L n'est significatif que lorsque l'achat et la vente
   tombent dans des runs différents — ce qui est le cas courant.
+- L'horodatage « màj » du dashboard n'avance que quand quelque chose a réellement
+  bougé (trade copié ou valeur d'une position modifiée). Sinon le bot ne commit
+  rien, pour éviter ~144 commits vides par jour. Pour vérifier qu'il tourne bien,
+  regarde l'onglet **Actions**.
