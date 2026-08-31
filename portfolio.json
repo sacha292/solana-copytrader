@@ -1,9 +1,52 @@
 {
   "startingCashUSD": 1000,
-  "cashUSD": 1000,
-  "holdingsUSD": 0.0,
+  "cashUSD": 900.0,
+  "holdingsUSD": 100.0,
   "totalValueUSD": 1000.0,
-  "updatedAt": "2026-08-30T21:34:26Z",
-  "positions": {},
-  "tradeLog": []
+  "updatedAt": "2026-08-31T15:24:17Z",
+  "positions": {
+    "3mCDpJND5YAcnGoAEmD7BLxDr58xtPWDPSdpww3Lpump": {
+      "symbol": "meme",
+      "amount": 34280182.153600514,
+      "avgCostUSD": 2.9171373580200423e-06,
+      "lastPriceUSD": 2.9171373580200423e-06,
+      "valueUSD": 100.0
+    }
+  },
+  "tradeLog": [
+    {
+      "timestamp": "2026-08-31T15:24:06Z",
+      "wallet": "test-deploiement",
+      "action": "BUY",
+      "mint": "3mCDpJND5YAcnGoAEmD7BLxDr58xtPWDPSdpww3Lpump",
+      "symbol": "meme",
+      "amount": 34280182.153600514,
+      "price": 2.9171373580200423e-06,
+      "valueUSD": 100.0,
+      "signature": "4k4V8xTwVX4bG821CVV8BZT8BtG4X1fJvVVLGEdyMMWwSGWFc8vUQVLtpp2JcJZ6zz95xy1iPWZUhLyDDH3BDkAn"
+    },
+    {
+      "timestamp": "2026-08-31T15:24:06Z",
+      "wallet": "test-deploiement",
+      "action": "SELL",
+      "mint": "4v6pzWv183VXKh5tHbomY1NKGRwLvPhdA7LLHUJBpump",
+      "symbol": "Maxi",
+      "amount": 18685296.663823444,
+      "price": 5.351801568856531e-06,
+      "valueUSD": 100.00000000000001,
+      "pnl": 0.0,
+      "signature": "46djwHpTSi9cVgjAKPqw3h4YBVBfYpzmU1N2WRQ3CUoMx3RaUgeXU3jkm1k3GvhvK7oDL4sGgTzU8rVteTHCTngc"
+    },
+    {
+      "timestamp": "2026-08-31T15:24:05Z",
+      "wallet": "test-deploiement",
+      "action": "BUY",
+      "mint": "4v6pzWv183VXKh5tHbomY1NKGRwLvPhdA7LLHUJBpump",
+      "symbol": "Maxi",
+      "amount": 18685296.663823444,
+      "price": 5.351801568856531e-06,
+      "valueUSD": 100.0,
+      "signature": "4vaksejhDdNckxNqyxKuvZgAd2om9XqJp9W6ASxSHnMt4NvFumjDkv4f8ZENTBwX4w1vBBw4gMKprreTqB3b8SRb"
+    }
+  ]
 }
