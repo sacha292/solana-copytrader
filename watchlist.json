@@ -3,5 +3,20 @@
     "address": "3XtAb2qGkt7TECVHrpo2rA2j56VgGmX1bpk3SFgh9Kp6",
     "label": "test-deploiement",
     "lastSignature": "szBkARsuSXHHLqQ1F6sJgjuEzKLmQbvVTRqaTNVwRJWiZwngWBk4XdY3hrqVfmnXAeZKaUvbWRA7FAsc7nNJHap"
+  },
+  {
+    "address": "yHCxHBEaJW5tbndqC8JciSThr7U1cqLpdcsvHcx6PRe",
+    "label": "Trader1",
+    "lastSignature": "5oeh6WsioX2Liez6GMpty23EDiKhrLC3SYWur8uqm4M8VSuaQK2z5mWN2xTp1vwcdyakCrrCt4UywkWT8A2Y3wNE"
+  },
+  {
+    "address": "5MXhmx81WXKtsT1k5kppyKe82cFdonYvx9VFqTcCeQPJ",
+    "label": "Trader2",
+    "lastSignature": "5KSeGnduHVVjTw8vSfYh4pxogRM3nzJLjHizgHKMDVThXricSt4Ed81cAfa1i7xLEiN5xtw2dqEZYCtfioQ2qfWs"
+  },
+  {
+    "address": "DjM7Tu7whh6P3pGVBfDzwXAx2zaw51GJWrJE3PwtuN7s",
+    "label": "Trader3",
+    "lastSignature": "5WLGkHDjc5yLKQxovfGCv3KwBV2PBAGG1LqpP24xghzTjFwEqbPpj6sUF1q9HrEGLga8wowWTmAJWQs8eF4SgjGk"
   }
 ]
