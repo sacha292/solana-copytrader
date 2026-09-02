@@ -1,9 +1,9 @@
 {
   "startingCashUSD": 1000,
   "cashUSD": 810.0,
-  "holdingsUSD": 185.09963597940072,
-  "totalValueUSD": 995.0996359794008,
-  "updatedAt": "2026-09-02T05:30:52Z",
+  "holdingsUSD": 184.65380930495203,
+  "totalValueUSD": 994.653809304952,
+  "updatedAt": "2026-09-02T09:52:27Z",
   "positions": {
     "3mCDpJND5YAcnGoAEmD7BLxDr58xtPWDPSdpww3Lpump": {
       "symbol": "meme",
@@ -16,8 +16,8 @@
       "symbol": "it",
       "amount": 30576530.990192477,
       "avgCostUSD": 2.943433969957802e-06,
-      "lastPriceUSD": 2.8905395074267496e-06,
-      "valueUSD": 88.38267082720971
+      "lastPriceUSD": 2.875958825445799e-06,
+      "valueUSD": 87.93684415276103
     }
   },
   "tradeLog": [
