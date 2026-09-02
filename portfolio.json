@@ -1,9 +1,9 @@
 {
   "startingCashUSD": 1000,
   "cashUSD": 810.0,
-  "holdingsUSD": 181.76784399930102,
-  "totalValueUSD": 991.767843999301,
-  "updatedAt": "2026-09-02T17:35:14Z",
+  "holdingsUSD": 182.8505095568084,
+  "totalValueUSD": 992.8505095568084,
+  "updatedAt": "2026-09-02T20:04:28Z",
   "positions": {
     "3mCDpJND5YAcnGoAEmD7BLxDr58xtPWDPSdpww3Lpump": {
       "symbol": "meme",
@@ -16,11 +16,34 @@
       "symbol": "it",
       "amount": 30576530.990192477,
       "avgCostUSD": 2.943433969957802e-06,
-      "lastPriceUSD": 2.7815738441483224e-06,
-      "valueUSD": 85.05087884711
+      "lastPriceUSD": 2.816982228371328e-06,
+      "valueUSD": 86.13354440461737
     }
   },
   "tradeLog": [
+    {
+      "timestamp": "2026-09-02T20:04:26Z",
+      "wallet": "Trader2",
+      "action": "SELL",
+      "mint": "CdyZqrUWfmCReyE8a9Kshd98YaBg5uUd4VT18ybfpump",
+      "symbol": "Home",
+      "amount": 28187411.279730454,
+      "price": 2.873623235428045e-06,
+      "valueUSD": 81.0,
+      "pnl": 0.0,
+      "signature": "5BQ4htpjBdF7dGwwDSYBY3pSF4hpBn3rpUGPdcWim3ssyNHYzbP7idP7HhgKR8YRUQSRwRedoGRBgcjvscsvok7g"
+    },
+    {
+      "timestamp": "2026-09-02T20:04:24Z",
+      "wallet": "Trader2",
+      "action": "BUY",
+      "mint": "CdyZqrUWfmCReyE8a9Kshd98YaBg5uUd4VT18ybfpump",
+      "symbol": "Home",
+      "amount": 28187411.279730454,
+      "price": 2.873623235428045e-06,
+      "valueUSD": 81.0,
+      "signature": "5H1fEpsoDpDqKzN6ESGb8HddaQWyyHhuw3Qy53Bf5jd5jvMnTJK9Q49CrXKqc85Fgi7VU4MQNtXBfFU1uh1u9gcS"
+    },
     {
       "timestamp": "2026-09-02T17:34:56Z",
       "wallet": "Trader2",
