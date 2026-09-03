@@ -1,9 +1,9 @@
 {
   "startingCashUSD": 1000,
   "cashUSD": 729.0,
-  "holdingsUSD": 263.4881009193042,
-  "totalValueUSD": 992.4881009193042,
-  "updatedAt": "2026-09-03T13:44:37Z",
+  "holdingsUSD": 252.2940088540294,
+  "totalValueUSD": 981.2940088540295,
+  "updatedAt": "2026-09-03T17:16:56Z",
   "positions": {
     "3mCDpJND5YAcnGoAEmD7BLxDr58xtPWDPSdpww3Lpump": {
       "symbol": "meme",
@@ -23,8 +23,8 @@
       "symbol": "RUGINHOOD",
       "amount": 21834925.21353823,
       "avgCostUSD": 3.7096531912908897e-06,
-      "lastPriceUSD": 3.7096531912908897e-06,
-      "valueUSD": 81.0
+      "lastPriceUSD": 3.1969840634692765e-06,
+      "valueUSD": 69.80590793472521
     }
   },
   "tradeLog": [
