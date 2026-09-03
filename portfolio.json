@@ -1,9 +1,9 @@
 {
   "startingCashUSD": 1000,
   "cashUSD": 729.0,
-  "holdingsUSD": 252.2940088540294,
-  "totalValueUSD": 981.2940088540295,
-  "updatedAt": "2026-09-03T17:16:56Z",
+  "holdingsUSD": 256.3305512798511,
+  "totalValueUSD": 985.3305512798511,
+  "updatedAt": "2026-09-03T19:53:19Z",
   "positions": {
     "3mCDpJND5YAcnGoAEmD7BLxDr58xtPWDPSdpww3Lpump": {
       "symbol": "meme",
@@ -16,15 +16,15 @@
       "symbol": "it",
       "amount": 30576530.990192477,
       "avgCostUSD": 2.943433969957802e-06,
-      "lastPriceUSD": 2.817905724900795e-06,
-      "valueUSD": 86.16178172486995
+      "lastPriceUSD": 2.9756619550562475e-06,
+      "valueUSD": 90.98541998511409
     },
     "9udxhNZEKbx8HXyqrqwhZcoXrnzooqjW4kjzzWLfpump": {
       "symbol": "RUGINHOOD",
       "amount": 21834925.21353823,
       "avgCostUSD": 3.7096531912908897e-06,
-      "lastPriceUSD": 3.1969840634692765e-06,
-      "valueUSD": 69.80590793472521
+      "lastPriceUSD": 3.1609365008270916e-06,
+      "valueUSD": 69.01881210030277
     }
   },
   "tradeLog": [
