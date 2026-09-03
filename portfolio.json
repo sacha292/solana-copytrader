@@ -1,9 +1,9 @@
 {
   "startingCashUSD": 1000,
   "cashUSD": 656.1,
-  "holdingsUSD": 328.80253491591134,
-  "totalValueUSD": 984.9025349159114,
-  "updatedAt": "2026-09-03T22:00:40Z",
+  "holdingsUSD": 326.5933936905047,
+  "totalValueUSD": 982.6933936905048,
+  "updatedAt": "2026-09-03T23:59:03Z",
   "positions": {
     "3mCDpJND5YAcnGoAEmD7BLxDr58xtPWDPSdpww3Lpump": {
       "symbol": "meme",
@@ -30,8 +30,8 @@
       "symbol": "WFH6900",
       "amount": 23112067.931047965,
       "avgCostUSD": 3.154196336627612e-06,
-      "lastPriceUSD": 3.154196336627612e-06,
-      "valueUSD": 72.9
+      "lastPriceUSD": 3.058612452398932e-06,
+      "valueUSD": 70.69085877459332
     }
   },
   "tradeLog": [
