@@ -1,9 +1,9 @@
 {
   "startingCashUSD": 1000,
   "cashUSD": 531.441,
-  "holdingsUSD": 401.0417642288635,
-  "totalValueUSD": 932.4827642288635,
-  "updatedAt": "2026-09-04T21:23:43Z",
+  "holdingsUSD": 396.2595176369342,
+  "totalValueUSD": 927.7005176369343,
+  "updatedAt": "2026-09-04T23:07:41Z",
   "positions": {
     "3mCDpJND5YAcnGoAEmD7BLxDr58xtPWDPSdpww3Lpump": {
       "symbol": "meme",
@@ -37,8 +37,8 @@
       "symbol": "PUMPHOUSE",
       "amount": 21067122.624856293,
       "avgCostUSD": 5.917229524876815e-06,
-      "lastPriceUSD": 3.6551640119126396e-06,
-      "valueUSD": 77.00378845292526
+      "lastPriceUSD": 3.4281635488172737e-06,
+      "valueUSD": 72.22154186099603
     }
   },
   "tradeLog": [
