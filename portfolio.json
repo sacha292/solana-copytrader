@@ -1,9 +1,9 @@
 {
   "startingCashUSD": 1000,
-  "cashUSD": 656.1,
-  "holdingsUSD": 323.50363199156595,
+  "cashUSD": 531.441,
+  "holdingsUSD": 448.16263199156595,
   "totalValueUSD": 979.603631991566,
-  "updatedAt": "2026-09-04T12:41:11Z",
+  "updatedAt": "2026-09-04T16:37:39Z",
   "positions": {
     "3mCDpJND5YAcnGoAEmD7BLxDr58xtPWDPSdpww3Lpump": {
       "symbol": "meme",
@@ -32,9 +32,38 @@
       "avgCostUSD": 3.154196336627612e-06,
       "lastPriceUSD": 2.9405117251234133e-06,
       "valueUSD": 67.96130674309536
+    },
+    "2udAyUp7akThcEYHnX4vU46YfjQSr6bPwoj5HRgcpump": {
+      "symbol": "PUMPHOUSE",
+      "amount": 21067122.624856293,
+      "avgCostUSD": 5.917229524876815e-06,
+      "lastPriceUSD": 5.917229524876815e-06,
+      "valueUSD": 124.659
     }
   },
   "tradeLog": [
+    {
+      "timestamp": "2026-09-04T16:37:28Z",
+      "wallet": "Trader3",
+      "action": "BUY",
+      "mint": "2udAyUp7akThcEYHnX4vU46YfjQSr6bPwoj5HRgcpump",
+      "symbol": "PUMPHOUSE",
+      "amount": 9979163.34861614,
+      "price": 5.917229524876815e-06,
+      "valueUSD": 59.04900000000001,
+      "signature": "q3FJufgxtaHudRLwmajeYRz9aBNNSpsEmBjnFwYEvVh6HNtYW8mbCm38GAD6sfk1xp4AZ9z8Faq6XSD5rK2FBbe"
+    },
+    {
+      "timestamp": "2026-09-04T16:37:27Z",
+      "wallet": "Trader3",
+      "action": "BUY",
+      "mint": "2udAyUp7akThcEYHnX4vU46YfjQSr6bPwoj5HRgcpump",
+      "symbol": "PUMPHOUSE",
+      "amount": 11087959.276240153,
+      "price": 5.917229524876815e-06,
+      "valueUSD": 65.61,
+      "signature": "64zs95gYTCSouzMFQQKMf44fiVNHuj8oJf62cr1uuJaU4nS3brTR81i22dvgUbKUkbqTWAE9aqucvemkV8xdXWyt"
+    },
     {
       "timestamp": "2026-09-03T22:00:36Z",
       "wallet": "Trader3",
