@@ -1,9 +1,9 @@
 {
   "startingCashUSD": 1000,
   "cashUSD": 531.441,
-  "holdingsUSD": 408.9888250617955,
-  "totalValueUSD": 940.4298250617956,
-  "updatedAt": "2026-09-04T19:06:34Z",
+  "holdingsUSD": 401.0417642288635,
+  "totalValueUSD": 932.4827642288635,
+  "updatedAt": "2026-09-04T21:23:43Z",
   "positions": {
     "3mCDpJND5YAcnGoAEmD7BLxDr58xtPWDPSdpww3Lpump": {
       "symbol": "meme",
@@ -16,8 +16,8 @@
       "symbol": "it",
       "amount": 30576530.990192477,
       "avgCostUSD": 2.943433969957802e-06,
-      "lastPriceUSD": 2.9756619550562475e-06,
-      "valueUSD": 90.98541998511409
+      "lastPriceUSD": 2.870130232455935e-06,
+      "valueUSD": 87.75862599857724
     },
     "9udxhNZEKbx8HXyqrqwhZcoXrnzooqjW4kjzzWLfpump": {
       "symbol": "RUGINHOOD",
@@ -30,18 +30,41 @@
       "symbol": "WFH6900",
       "amount": 23112067.931047965,
       "avgCostUSD": 3.154196336627612e-06,
-      "lastPriceUSD": 2.9405117251234133e-06,
-      "valueUSD": 67.96130674309536
+      "lastPriceUSD": 3.103246525926613e-06,
+      "valueUSD": 71.72244451400448
     },
     "2udAyUp7akThcEYHnX4vU46YfjQSr6bPwoj5HRgcpump": {
       "symbol": "PUMPHOUSE",
       "amount": 21067122.624856293,
       "avgCostUSD": 5.917229524876815e-06,
-      "lastPriceUSD": 4.05775361887194e-06,
-      "valueUSD": 85.48519307022956
+      "lastPriceUSD": 3.6551640119126396e-06,
+      "valueUSD": 77.00378845292526
     }
   },
   "tradeLog": [
+    {
+      "timestamp": "2026-09-04T21:23:38Z",
+      "wallet": "test-deploiement",
+      "action": "SELL",
+      "mint": "ELCYbMzWUZxCuWPXBobZSYcoaGgS1pxB4WcFJnpZpump",
+      "symbol": "Mars",
+      "amount": 16191523.646225432,
+      "price": 3.282217360216681e-06,
+      "valueUSD": 53.14410000000001,
+      "pnl": 0.0,
+      "signature": "2e33VJqT44CdSXTDZhY9AVeGU8Wet3XnsrtbDcRNV7zcYLc3jfw7N16UxvuNfmMK4V9LNWdeRSUiD8EnnD53aork"
+    },
+    {
+      "timestamp": "2026-09-04T21:23:38Z",
+      "wallet": "test-deploiement",
+      "action": "BUY",
+      "mint": "ELCYbMzWUZxCuWPXBobZSYcoaGgS1pxB4WcFJnpZpump",
+      "symbol": "Mars",
+      "amount": 16191523.646225432,
+      "price": 3.282217360216681e-06,
+      "valueUSD": 53.14410000000001,
+      "signature": "3Yk8mSmbeLLjfThG5DCWqpyUz39ME423tV1WbqRQDfZ1dU1zjKStwaoWmEdxA66zwMYYfnbiUhBMEAPjTcNDYAwP"
+    },
     {
       "timestamp": "2026-09-04T16:37:28Z",
       "wallet": "Trader3",
