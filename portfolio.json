@@ -1,9 +1,9 @@
 {
   "startingCashUSD": 1000,
   "cashUSD": 531.441,
-  "holdingsUSD": 388.5949493657453,
-  "totalValueUSD": 920.0359493657454,
-  "updatedAt": "2026-09-05T05:03:58Z",
+  "holdingsUSD": 385.89283378135787,
+  "totalValueUSD": 917.333833781358,
+  "updatedAt": "2026-09-05T08:59:18Z",
   "positions": {
     "3mCDpJND5YAcnGoAEmD7BLxDr58xtPWDPSdpww3Lpump": {
       "symbol": "meme",
@@ -30,15 +30,15 @@
       "symbol": "WFH6900",
       "amount": 23112067.931047965,
       "avgCostUSD": 3.154196336627612e-06,
-      "lastPriceUSD": 2.986140987531877e-06,
-      "valueUSD": 69.0158933555234
+      "lastPriceUSD": 2.875715546512388e-06,
+      "valueUSD": 66.46373306136503
     },
     "2udAyUp7akThcEYHnX4vU46YfjQSr6bPwoj5HRgcpump": {
       "symbol": "PUMPHOUSE",
       "amount": 21067122.624856293,
       "avgCostUSD": 5.917229524876815e-06,
-      "lastPriceUSD": 3.2733274551091485e-06,
-      "valueUSD": 68.95959088809322
+      "lastPriceUSD": 3.26620947830238e-06,
+      "valueUSD": 68.80963559786414
     }
   },
   "tradeLog": [
