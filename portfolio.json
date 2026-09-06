@@ -3,7 +3,7 @@
   "cashUSD": 531.441,
   "holdingsUSD": 388.1715476873617,
   "totalValueUSD": 919.6125476873617,
-  "updatedAt": "2026-09-06T09:20:05Z",
+  "updatedAt": "2026-09-06T12:56:01Z",
   "positions": {
     "3mCDpJND5YAcnGoAEmD7BLxDr58xtPWDPSdpww3Lpump": {
       "symbol": "meme",
@@ -42,6 +42,29 @@
     }
   },
   "tradeLog": [
+    {
+      "timestamp": "2026-09-06T12:55:35Z",
+      "wallet": "test-deploiement",
+      "action": "SELL",
+      "mint": "33LZGLLvtRDx3uAfJ1CcBSC7pNFqdiCBAvwPsVkBpump",
+      "symbol": "BILL",
+      "amount": 62108.67125148747,
+      "price": 0.0008556631293046257,
+      "valueUSD": 53.14410000000001,
+      "pnl": 0.0,
+      "signature": "Qqa4pSh4JdmA879pKNDHaLp9JhZbEEjXUJQux4UVCQWuR2o597UmbT12EFd7CGrWWTP8QsPKT6KhVTPUNP4F4Mt"
+    },
+    {
+      "timestamp": "2026-09-06T12:55:34Z",
+      "wallet": "test-deploiement",
+      "action": "BUY",
+      "mint": "33LZGLLvtRDx3uAfJ1CcBSC7pNFqdiCBAvwPsVkBpump",
+      "symbol": "BILL",
+      "amount": 62108.67125148747,
+      "price": 0.0008556631293046257,
+      "valueUSD": 53.14410000000001,
+      "signature": "3uo5kCdgLwGE5XoiBb2Rs3U8UgiA8ko3zRfPPxSFp7TRCE3TkegJtUhPy9ZeEvVGuyDaJ8yMvroV9acR4gXr6DVZ"
+    },
     {
       "timestamp": "2026-09-04T21:23:38Z",
       "wallet": "test-deploiement",
