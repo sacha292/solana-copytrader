@@ -1,9 +1,9 @@
 {
   "startingCashUSD": 1000,
-  "cashUSD": 531.441,
-  "holdingsUSD": 391.27711896631035,
-  "totalValueUSD": 922.7181189663104,
-  "updatedAt": "2026-09-06T15:55:09Z",
+  "cashUSD": 538.4742434151591,
+  "holdingsUSD": 381.53366982345904,
+  "totalValueUSD": 920.0079132386181,
+  "updatedAt": "2026-09-06T19:46:37Z",
   "positions": {
     "3mCDpJND5YAcnGoAEmD7BLxDr58xtPWDPSdpww3Lpump": {
       "symbol": "meme",
@@ -19,13 +19,6 @@
       "lastPriceUSD": 2.870130232455935e-06,
       "valueUSD": 87.75862599857724
     },
-    "9udxhNZEKbx8HXyqrqwhZcoXrnzooqjW4kjzzWLfpump": {
-      "symbol": "RUGINHOOD",
-      "amount": 21834925.21353823,
-      "avgCostUSD": 3.7096531912908897e-06,
-      "lastPriceUSD": 3.1524359873686676e-06,
-      "valueUSD": 68.8332040246614
-    },
     "6DZs2gpbJqt7GVfqbuCfKCtNxK68Qon4Z1SWxbcppump": {
       "symbol": "WFH6900",
       "amount": 23112067.931047965,
@@ -37,11 +30,64 @@
       "symbol": "PUMPHOUSE",
       "amount": 21067122.624856293,
       "avgCostUSD": 5.917229524876815e-06,
-      "lastPriceUSD": 3.363292022197203e-06,
-      "valueUSD": 70.85488545482937
+      "lastPriceUSD": 3.328132184664895e-06,
+      "valueUSD": 70.1141688460662
+    },
+    "DitHyRMQiSDhn5cnKMJV2CDDt6sVct96YrECiM49pump": {
+      "symbol": "House",
+      "amount": 63211.73315807105,
+      "avgCostUSD": 0.0009465089549270477,
+      "lastPriceUSD": 0.0009465089549270477,
+      "valueUSD": 59.83047149057324
     }
   },
   "tradeLog": [
+    {
+      "timestamp": "2026-09-06T19:46:27Z",
+      "wallet": "Trader3",
+      "action": "SELL",
+      "mint": "G6sbaJnTiQicPQ5HnfBjysFMofr17MMtW39fiBaQPW6y",
+      "symbol": "CHILLGUY",
+      "amount": 17599978.5241316,
+      "price": 3.059516479959614e-06,
+      "valueUSD": 53.84742434151592,
+      "pnl": 0.0,
+      "signature": "EaJ3G8UbhfodMhjWGso1rwk7wneDXhQXExPTZYjaFSiEmMgjA6vr7VGutost17eoVzkrAjsZJy8cGyo2FvbmXWT"
+    },
+    {
+      "timestamp": "2026-09-06T19:46:27Z",
+      "wallet": "Trader3",
+      "action": "BUY",
+      "mint": "G6sbaJnTiQicPQ5HnfBjysFMofr17MMtW39fiBaQPW6y",
+      "symbol": "CHILLGUY",
+      "amount": 17599978.5241316,
+      "price": 3.059516479959614e-06,
+      "valueUSD": 53.84742434151591,
+      "signature": "4o9YzB9bGe8v74x16gr6kXWyt4oaRuVh1BjYofYQgNz7Y8gkGa5mPVkRcGpF28LrcAbyZh1EC6bJrTwqRmZbei78"
+    },
+    {
+      "timestamp": "2026-09-06T19:46:26Z",
+      "wallet": "Trader3",
+      "action": "BUY",
+      "mint": "DitHyRMQiSDhn5cnKMJV2CDDt6sVct96YrECiM49pump",
+      "symbol": "House",
+      "amount": 63211.73315807105,
+      "price": 0.0009465089549270477,
+      "valueUSD": 59.83047149057324,
+      "signature": "4SfxtAYSg96WqRNVrMx6sQYBNXPsqNZbQqxeCAR1FAKpwU79zrb6fjU5m36Ep3Gv7drzZaqe6qVbprdWKg3zQhQF"
+    },
+    {
+      "timestamp": "2026-09-06T19:46:25Z",
+      "wallet": "Trader3",
+      "action": "SELL",
+      "mint": "9udxhNZEKbx8HXyqrqwhZcoXrnzooqjW4kjzzWLfpump",
+      "symbol": "RUGINHOOD",
+      "amount": 21834925.21353823,
+      "price": 3.0622369553285683e-06,
+      "valueUSD": 66.8637149057323,
+      "pnl": -14.136285094267706,
+      "signature": "5LtNvN4XnVwY8du1Eu83h41VzsGQidZDKugif1QY67c9ZPqTVLUCwwqFaWUefXc5UGLsGJ92p3kpwJW8q4UrnTak"
+    },
     {
       "timestamp": "2026-09-06T12:55:35Z",
       "wallet": "test-deploiement",
