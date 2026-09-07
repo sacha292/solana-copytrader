@@ -1,9 +1,9 @@
 {
   "startingCashUSD": 1000,
-  "cashUSD": 436.16413716627886,
-  "holdingsUSD": 476.47166293458866,
-  "totalValueUSD": 912.6358001008675,
-  "updatedAt": "2026-09-07T16:40:31Z",
+  "cashUSD": 353.29295110468587,
+  "holdingsUSD": 559.5388104571919,
+  "totalValueUSD": 912.8317615618778,
+  "updatedAt": "2026-09-07T20:09:33Z",
   "positions": {
     "3mCDpJND5YAcnGoAEmD7BLxDr58xtPWDPSdpww3Lpump": {
       "symbol": "meme",
@@ -37,25 +37,84 @@
       "symbol": "House",
       "amount": 63211.73315807105,
       "avgCostUSD": 0.0009465089549270477,
-      "lastPriceUSD": 0.000958627284970591,
-      "valueUSD": 60.596492135607136
+      "lastPriceUSD": 0.0009641713902003321,
+      "valueUSD": 60.946944635989794
     },
     "A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS": {
       "symbol": "ZEC",
       "amount": 0.04294461015044457,
       "avgCostUSD": 1253.8808514706816,
-      "lastPriceUSD": 1162.4727667988182,
-      "valueUSD": 49.92193978068391
+      "lastPriceUSD": 1158.3397590513084,
+      "valueUSD": 49.744449374218334
     },
     "XsoCS1TfEyfFhfvj8EtZ528L3CaKBDBRqRapnBbDF2W": {
       "symbol": "SPYx",
       "amount": 0.0629537194975397,
       "avgCostUSD": 769.8144334308681,
-      "lastPriceUSD": 769.8144334308681,
-      "valueUSD": 48.46268190736431
+      "lastPriceUSD": 770.1797711309555,
+      "valueUSD": 48.48568127445749
+    },
+    "Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh": {
+      "symbol": "NVDAx",
+      "amount": 0.18805152629878868,
+      "avgCostUSD": 231.9386317946032,
+      "lastPriceUSD": 231.9386317946032,
+      "valueUSD": 43.61641371662789
+    },
+    "2K5YaTPdjyaaKkj8jSW2CXm5rVg5VmMXY7EHi6y8fvdj": {
+      "symbol": "DATACENTER",
+      "amount": 11719026.396438524,
+      "avgCostUSD": 3.3496615688906405e-06,
+      "lastPriceUSD": 3.3496615688906405e-06,
+      "valueUSD": 39.2547723449651
     }
   },
   "tradeLog": [
+    {
+      "timestamp": "2026-09-07T20:09:26Z",
+      "wallet": "Trader3",
+      "action": "BUY",
+      "mint": "2K5YaTPdjyaaKkj8jSW2CXm5rVg5VmMXY7EHi6y8fvdj",
+      "symbol": "DATACENTER",
+      "amount": 11719026.396438524,
+      "price": 3.3496615688906405e-06,
+      "valueUSD": 39.2547723449651,
+      "signature": "2QwktBVE1T4FwUZkEBSwFdFb4s88VFJoB6bqCTDTucdzT7RoXG7gCVLbEyMCaG6SwX3F4dAAH1ktRZpKHLAtv1vp"
+    },
+    {
+      "timestamp": "2026-09-07T20:09:19Z",
+      "wallet": "Trader3",
+      "action": "SELL",
+      "mint": "2K5YaTPdjyaaKkj8jSW2CXm5rVg5VmMXY7EHi6y8fvdj",
+      "symbol": "DATACENTER",
+      "amount": 11719026.396438524,
+      "price": 3.3496615688906405e-06,
+      "valueUSD": 39.2547723449651,
+      "pnl": 0.0,
+      "signature": "4T4d23x3nTB4M6eQ3LTSHA5jsGYYYG81n49bb7XPRBcUqPTsNCFDoenw9tWPyD9zHCgfq1e7og2sjRkvKw4BgAp7"
+    },
+    {
+      "timestamp": "2026-09-07T20:09:17Z",
+      "wallet": "Trader3",
+      "action": "BUY",
+      "mint": "2K5YaTPdjyaaKkj8jSW2CXm5rVg5VmMXY7EHi6y8fvdj",
+      "symbol": "DATACENTER",
+      "amount": 11719026.396438524,
+      "price": 3.3496615688906405e-06,
+      "valueUSD": 39.2547723449651,
+      "signature": "2j9SuUzKQiziL6UC82zG7FAcW49bBhyDeXnBvPxnLhy8mXapRJDCX9NZTRYtG6fgT9HaY7hxHVQLYsGYWcbQqn2A"
+    },
+    {
+      "timestamp": "2026-09-07T20:09:17Z",
+      "wallet": "Trader3",
+      "action": "BUY",
+      "mint": "Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh",
+      "symbol": "NVDAx",
+      "amount": 0.18805152629878868,
+      "price": 231.9386317946032,
+      "valueUSD": 43.61641371662789,
+      "signature": "4Y9Uo1tn2PEXsbSKGPakNUhV96vuL5hq7W5aYNXFXtRc75v7p3dpvChyHMr1jyWFbFzQND86oiqXKo7fepUXqd38"
+    },
     {
       "timestamp": "2026-09-07T16:40:15Z",
       "wallet": "Trader3",
