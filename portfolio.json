@@ -1,9 +1,9 @@
 {
   "startingCashUSD": 1000,
-  "cashUSD": 484.62681907364316,
-  "holdingsUSD": 432.84112020391524,
-  "totalValueUSD": 917.4679392775583,
-  "updatedAt": "2026-09-07T11:46:17Z",
+  "cashUSD": 436.16413716627886,
+  "holdingsUSD": 476.47166293458866,
+  "totalValueUSD": 912.6358001008675,
+  "updatedAt": "2026-09-07T16:40:31Z",
   "positions": {
     "3mCDpJND5YAcnGoAEmD7BLxDr58xtPWDPSdpww3Lpump": {
       "symbol": "meme",
@@ -30,25 +30,66 @@
       "symbol": "PUMPHOUSE",
       "amount": 21067122.624856293,
       "avgCostUSD": 5.917229524876815e-06,
-      "lastPriceUSD": 3.269713071898879e-06,
-      "valueUSD": 68.88344623378924
+      "lastPriceUSD": 3.104682047363087e-06,
+      "valueUSD": 65.40671740298805
     },
     "DitHyRMQiSDhn5cnKMJV2CDDt6sVct96YrECiM49pump": {
       "symbol": "House",
       "amount": 63211.73315807105,
       "avgCostUSD": 0.0009465089549270477,
-      "lastPriceUSD": 0.0009549495341516483,
-      "valueUSD": 60.364015132218256
+      "lastPriceUSD": 0.000958627284970591,
+      "valueUSD": 60.596492135607136
     },
     "A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS": {
       "symbol": "ZEC",
       "amount": 0.04294461015044457,
       "avgCostUSD": 1253.8808514706816,
-      "lastPriceUSD": 1199.4480087142945,
-      "valueUSD": 51.50982712996242
+      "lastPriceUSD": 1162.4727667988182,
+      "valueUSD": 49.92193978068391
+    },
+    "XsoCS1TfEyfFhfvj8EtZ528L3CaKBDBRqRapnBbDF2W": {
+      "symbol": "SPYx",
+      "amount": 0.0629537194975397,
+      "avgCostUSD": 769.8144334308681,
+      "lastPriceUSD": 769.8144334308681,
+      "valueUSD": 48.46268190736431
     }
   },
   "tradeLog": [
+    {
+      "timestamp": "2026-09-07T16:40:15Z",
+      "wallet": "Trader3",
+      "action": "SELL",
+      "mint": "Ay1tfvvtpX11w3XMacyWJYmzRf2cVK5WActnSBRR1adu",
+      "symbol": "NYSE6900",
+      "amount": 14015563.011660215,
+      "price": 3.1119986889104146e-06,
+      "valueUSD": 43.61641371662789,
+      "pnl": 0.0,
+      "signature": "248bUDutRJqrMpW3reEBADRmF6XUB1k8DRoBYMg8JCW3frSiKLVRFDkxwZzPgzRTePkjxDYTfLmBjnqGrsJZyvAg"
+    },
+    {
+      "timestamp": "2026-09-07T16:40:15Z",
+      "wallet": "Trader3",
+      "action": "BUY",
+      "mint": "Ay1tfvvtpX11w3XMacyWJYmzRf2cVK5WActnSBRR1adu",
+      "symbol": "NYSE6900",
+      "amount": 14015563.011660215,
+      "price": 3.1119986889104146e-06,
+      "valueUSD": 43.61641371662789,
+      "signature": "3XuGZs4zBLCYoF5uJUZFgKcgSP34JA2twS98aF2Pmg56sa2b3FmXcszGhrkdghp5cvwaMcQ49CzZJ2DPQvo4EtEu"
+    },
+    {
+      "timestamp": "2026-09-07T16:40:14Z",
+      "wallet": "Trader3",
+      "action": "BUY",
+      "mint": "XsoCS1TfEyfFhfvj8EtZ528L3CaKBDBRqRapnBbDF2W",
+      "symbol": "SPYx",
+      "amount": 0.0629537194975397,
+      "price": 769.8144334308681,
+      "valueUSD": 48.46268190736432,
+      "signature": "2dyxvW8PDbRhNZsvqQPqRAZeEvsr1jEc3Zy5Y2FjWCyhGqBXtsdCieiy6fb5oqYzpcfTrrS9Ci3n1Zh57DYu94fZ"
+    },
     {
       "timestamp": "2026-09-06T21:46:03Z",
       "wallet": "Trader3",
