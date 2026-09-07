@@ -1,9 +1,9 @@
 {
   "startingCashUSD": 1000,
   "cashUSD": 353.29295110468587,
-  "holdingsUSD": 559.5388104571919,
-  "totalValueUSD": 912.8317615618778,
-  "updatedAt": "2026-09-07T20:09:33Z",
+  "holdingsUSD": 577.6253283999903,
+  "totalValueUSD": 930.9182795046761,
+  "updatedAt": "2026-09-07T22:47:50Z",
   "positions": {
     "3mCDpJND5YAcnGoAEmD7BLxDr58xtPWDPSdpww3Lpump": {
       "symbol": "meme",
@@ -37,36 +37,36 @@
       "symbol": "House",
       "amount": 63211.73315807105,
       "avgCostUSD": 0.0009465089549270477,
-      "lastPriceUSD": 0.0009641713902003321,
-      "valueUSD": 60.946944635989794
+      "lastPriceUSD": 0.0009546151164137862,
+      "valueUSD": 60.34287600740919
     },
     "A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS": {
       "symbol": "ZEC",
       "amount": 0.04294461015044457,
       "avgCostUSD": 1253.8808514706816,
-      "lastPriceUSD": 1158.3397590513084,
-      "valueUSD": 49.744449374218334
+      "lastPriceUSD": 1127.1555596436099,
+      "valueUSD": 48.40525608780099
     },
     "XsoCS1TfEyfFhfvj8EtZ528L3CaKBDBRqRapnBbDF2W": {
       "symbol": "SPYx",
       "amount": 0.0629537194975397,
       "avgCostUSD": 769.8144334308681,
-      "lastPriceUSD": 770.1797711309555,
-      "valueUSD": 48.48568127445749
+      "lastPriceUSD": 766.8583852372384,
+      "valueUSD": 48.27658767856134
     },
     "Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh": {
       "symbol": "NVDAx",
       "amount": 0.18805152629878868,
       "avgCostUSD": 231.9386317946032,
-      "lastPriceUSD": 231.9386317946032,
-      "valueUSD": 43.61641371662789
+      "lastPriceUSD": 231.84727492822807,
+      "valueUSD": 43.59923391846817
     },
     "2K5YaTPdjyaaKkj8jSW2CXm5rVg5VmMXY7EHi6y8fvdj": {
       "symbol": "DATACENTER",
       "amount": 11719026.396438524,
       "avgCostUSD": 3.3496615688906405e-06,
-      "lastPriceUSD": 3.3496615688906405e-06,
-      "valueUSD": 39.2547723449651
+      "lastPriceUSD": 5.0781373455138695e-06,
+      "valueUSD": 59.51082559681729
     }
   },
   "tradeLog": [
