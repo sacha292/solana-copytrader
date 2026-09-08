@@ -1,9 +1,9 @@
 {
   "startingCashUSD": 1000,
   "cashUSD": 353.29295110468587,
-  "holdingsUSD": 569.9552659251668,
-  "totalValueUSD": 923.2482170298526,
-  "updatedAt": "2026-09-08T05:18:47Z",
+  "holdingsUSD": 568.1565802123484,
+  "totalValueUSD": 921.4495313170344,
+  "updatedAt": "2026-09-08T09:49:07Z",
   "positions": {
     "3mCDpJND5YAcnGoAEmD7BLxDr58xtPWDPSdpww3Lpump": {
       "symbol": "meme",
@@ -37,36 +37,36 @@
       "symbol": "House",
       "amount": 63211.73315807105,
       "avgCostUSD": 0.0009465089549270477,
-      "lastPriceUSD": 0.0009431975623300482,
-      "valueUSD": 59.6211526253501
+      "lastPriceUSD": 0.0009386359323205868,
+      "valueUSD": 59.33280408642617
     },
     "A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS": {
       "symbol": "ZEC",
       "amount": 0.04294461015044457,
       "avgCostUSD": 1253.8808514706816,
-      "lastPriceUSD": 1130.191963326981,
-      "valueUSD": 48.535653260242746
+      "lastPriceUSD": 1141.5963778823773,
+      "valueUSD": 49.025411397318294
     },
     "XsoCS1TfEyfFhfvj8EtZ528L3CaKBDBRqRapnBbDF2W": {
       "symbol": "SPYx",
       "amount": 0.0629537194975397,
       "avgCostUSD": 769.8144334308681,
-      "lastPriceUSD": 770.1739904464752,
-      "valueUSD": 48.485317358868215
+      "lastPriceUSD": 768.9454573793859,
+      "valueUSD": 48.40797663276922
     },
     "Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh": {
       "symbol": "NVDAx",
       "amount": 0.18805152629878868,
       "avgCostUSD": 231.9386317946032,
-      "lastPriceUSD": 232.3921760797459,
-      "valueUSD": 43.70170341169307
+      "lastPriceUSD": 231.61345210007752,
+      "valueUSD": 43.55526317875096
     },
     "2K5YaTPdjyaaKkj8jSW2CXm5rVg5VmMXY7EHi6y8fvdj": {
       "symbol": "DATACENTER",
       "amount": 11719026.396438524,
       "avgCostUSD": 3.3496615688906405e-06,
-      "lastPriceUSD": 4.447544394466015e-06,
-      "valueUSD": 52.12089015807942
+      "lastPriceUSD": 4.295969144796062e-06,
+      "valueUSD": 50.34457580615048
     }
   },
   "tradeLog": [
