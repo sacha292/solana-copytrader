@@ -1,9 +1,9 @@
 {
   "startingCashUSD": 1000,
-  "cashUSD": 136.87292787723047,
-  "holdingsUSD": 707.2957352339081,
-  "totalValueUSD": 844.1686631111386,
-  "updatedAt": "2026-09-09T17:32:50Z",
+  "cashUSD": 123.18563508950741,
+  "holdingsUSD": 709.96273427617,
+  "totalValueUSD": 833.1483693656774,
+  "updatedAt": "2026-09-09T19:59:47Z",
   "positions": {
     "3mCDpJND5YAcnGoAEmD7BLxDr58xtPWDPSdpww3Lpump": {
       "symbol": "meme",
@@ -16,8 +16,8 @@
       "symbol": "it",
       "amount": 30576530.990192477,
       "avgCostUSD": 2.943433969957802e-06,
-      "lastPriceUSD": 2.870130232455935e-06,
-      "valueUSD": 87.75862599857724
+      "lastPriceUSD": 2.872647319598434e-06,
+      "valueUSD": 87.83558979159487
     },
     "6DZs2gpbJqt7GVfqbuCfKCtNxK68Qon4Z1SWxbcppump": {
       "symbol": "WFH6900",
@@ -37,29 +37,29 @@
       "symbol": "House",
       "amount": 63211.73315807105,
       "avgCostUSD": 0.0009465089549270477,
-      "lastPriceUSD": 0.0008486515969597008,
-      "valueUSD": 53.64473829118747
+      "lastPriceUSD": 0.0008479551425674072,
+      "valueUSD": 53.600714201985035
     },
     "A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS": {
       "symbol": "ZEC",
       "amount": 0.04294461015044457,
       "avgCostUSD": 1253.8808514706816,
-      "lastPriceUSD": 1282.2239338834422,
-      "valueUSD": 55.064606966193836
+      "lastPriceUSD": 1249.529890768362,
+      "valueUSD": 53.660574030374896
     },
     "XsoCS1TfEyfFhfvj8EtZ528L3CaKBDBRqRapnBbDF2W": {
       "symbol": "SPYx",
       "amount": 0.09320065957115026,
       "avgCostUSD": 768.6880410395637,
-      "lastPriceUSD": 763.4391036904258,
-      "valueUSD": 71.15302800635546
+      "lastPriceUSD": 763.0027658612024,
+      "valueUSD": 71.112361032876
     },
     "Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh": {
       "symbol": "NVDAx",
       "amount": 0.18805152629878868,
       "avgCostUSD": 231.9386317946032,
-      "lastPriceUSD": 224.13302687619765,
-      "valueUSD": 42.14855779803639
+      "lastPriceUSD": 223.6638830452598,
+      "valueUSD": 42.060334584574875
     },
     "2K5YaTPdjyaaKkj8jSW2CXm5rVg5VmMXY7EHi6y8fvdj": {
       "symbol": "DATACENTER",
@@ -72,46 +72,87 @@
       "symbol": "XMRCAT",
       "amount": 1100705.2730383524,
       "avgCostUSD": 6.0984227435014226e-05,
-      "lastPriceUSD": 4.981368998871148e-05,
-      "valueUSD": 54.830191240072516
+      "lastPriceUSD": 4.3946146867898244e-05,
+      "valueUSD": 48.37175558721347
     },
     "H9gp9xGBEeKcpUNqci1y9nLBALEW6gMHRDoGuyg6pump": {
       "symbol": "bill",
       "amount": 567722.5865275493,
       "avgCostUSD": 9.577174920514232e-05,
-      "lastPriceUSD": 5.7749683892057065e-05,
-      "valueUSD": 32.78579991034699
+      "lastPriceUSD": 6.0597449261751596e-05,
+      "valueUSD": 34.40254063185355
     },
     "HzwqbKZw8HxMN6bF2yFZNrht3c2iXXzpKcFu7uBEDKtr": {
       "symbol": "EURC",
       "amount": 17.938450170995065,
       "avgCostUSD": 1.1629541722345673,
-      "lastPriceUSD": 1.1635725002195445,
-      "valueUSD": 20.87268731552844
+      "lastPriceUSD": 1.162715603465085,
+      "valueUSD": 20.85731591579688
     },
     "Ap1LVkexKkefXc6ee5bghjEaT46c2YkbLvoFwAbXiN6k": {
       "symbol": "FOREX",
       "amount": 625687.331893902,
       "avgCostUSD": 3.00076970808581e-05,
-      "lastPriceUSD": 1.7139967845174033e-05,
-      "valueUSD": 10.724260749794215
+      "lastPriceUSD": 9.82052211091013e-06,
+      "valueUSD": 6.14457627738043
     },
     "DGPyhRp5e1JhcDL9xHPLJEoUU6hsfMyTH1Vvbv9zpump": {
       "symbol": "CRACKHOUSE",
       "amount": 287530.56652389094,
       "avgCostUSD": 5.8769029445494565e-05,
-      "lastPriceUSD": 3.0917118415038042e-06,
-      "valueUSD": 0.8889616573162109
+      "lastPriceUSD": 2.8556630518648845e-06,
+      "valueUSD": 0.8210904151040536
     },
     "HTZsLG4zqaNvWMwXSLHH3GG5KyJpKwpBRsKVdMG6hvzP": {
       "symbol": "HTZ",
       "amount": 7.338686926393367,
       "avgCostUSD": 2.0723193740251498,
-      "lastPriceUSD": 2.0723193740251498,
-      "valueUSD": 15.208103097470053
+      "lastPriceUSD": 2.070181623639565,
+      "valueUSD": 15.19241481666347
+    },
+    "CZEB3WNZuF2Yz1z2H81RcCk8T7fsw82KB33zqamASVsg": {
+      "symbol": "COST",
+      "amount": 0.015148031622705395,
+      "avgCostUSD": 903.5690661753805,
+      "lastPriceUSD": 903.5690661753805,
+      "valueUSD": 13.687292787723047
     }
   },
   "tradeLog": [
+    {
+      "timestamp": "2026-09-09T19:59:39Z",
+      "wallet": "Trader3",
+      "action": "SELL",
+      "mint": "FAgrUYQPt1uN2gvqdNTLorafRau9Ty2sYXQFV38QHSkh",
+      "symbol": "KIRKLAND",
+      "amount": 3095250.720808991,
+      "price": 3.979827361361892e-06,
+      "valueUSD": 12.318563508950742,
+      "pnl": 0.0,
+      "signature": "4cg8efEYvMHkZfwaaugUivN5gJAcEpRgUGS3oBTTEdQAzhPWXDU3HPB1zmpoVoBJEtBjfdJ7H1SqVi91vYgTJc6S"
+    },
+    {
+      "timestamp": "2026-09-09T19:59:39Z",
+      "wallet": "Trader3",
+      "action": "BUY",
+      "mint": "FAgrUYQPt1uN2gvqdNTLorafRau9Ty2sYXQFV38QHSkh",
+      "symbol": "KIRKLAND",
+      "amount": 3095250.720808991,
+      "price": 3.979827361361892e-06,
+      "valueUSD": 12.318563508950742,
+      "signature": "4XyggjiPUAV48o3aaUyKht4ZvZdDd3p1EVYnt11pyK2fmmCRqciMXGHmapMk5LNbP564PU3QE94eW7zMaPUBHBWF"
+    },
+    {
+      "timestamp": "2026-09-09T19:59:38Z",
+      "wallet": "Trader3",
+      "action": "BUY",
+      "mint": "CZEB3WNZuF2Yz1z2H81RcCk8T7fsw82KB33zqamASVsg",
+      "symbol": "COST",
+      "amount": 0.015148031622705395,
+      "price": 903.5690661753805,
+      "valueUSD": 13.687292787723047,
+      "signature": "2NPAPUAbjf1zZ5e8WYeqBermAWgXGGnwBd2aR9JpsTfRPW8m2cFc7eeLMn6iidHc72Zr1RV8TWpFHQwR3zHmyWhV"
+    },
     {
       "timestamp": "2026-09-09T17:32:46Z",
       "wallet": "Trader3",
