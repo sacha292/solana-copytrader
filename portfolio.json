@@ -1,9 +1,9 @@
 {
   "startingCashUSD": 1000,
-  "cashUSD": 0.07694524913992373,
-  "holdingsUSD": 760.0984851909283,
-  "totalValueUSD": 760.1754304400682,
-  "updatedAt": "2026-10-16T07:18:06Z",
+  "cashUSD": 0.06925072422593136,
+  "holdingsUSD": 764.6749739786133,
+  "totalValueUSD": 764.7442247028392,
+  "updatedAt": "2026-10-16T12:30:11Z",
   "positions": {
     "3mCDpJND5YAcnGoAEmD7BLxDr58xtPWDPSdpww3Lpump": {
       "symbol": "meme",
@@ -37,8 +37,8 @@
       "symbol": "House",
       "amount": 63211.73315807105,
       "avgCostUSD": 0.0009465089549270477,
-      "lastPriceUSD": 0.0006455115928391024,
-      "valueUSD": 40.80390655698675
+      "lastPriceUSD": 0.0007177892228693703,
+      "valueUSD": 45.37270081975783
     },
     "A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS": {
       "symbol": "ZEC",
@@ -522,9 +522,27 @@
       "avgCostUSD": 3.307146862923456e-06,
       "lastPriceUSD": 2.9720637214150554e-06,
       "valueUSD": 0.007683231800122853
+    },
+    "F1hzrn69YEjnUEiAiVy2DH4d63ioiHEaj1x74uMypump": {
+      "symbol": "DP",
+      "amount": 2234.707390980297,
+      "avgCostUSD": 3.4431912406290574e-06,
+      "lastPriceUSD": 3.4431912406290574e-06,
+      "valueUSD": 0.0076945249139923734
     }
   },
   "tradeLog": [
+    {
+      "timestamp": "2026-10-16T12:29:56Z",
+      "wallet": "Trader3",
+      "action": "BUY",
+      "mint": "F1hzrn69YEjnUEiAiVy2DH4d63ioiHEaj1x74uMypump",
+      "symbol": "DP",
+      "amount": 2234.707390980297,
+      "price": 3.4431912406290574e-06,
+      "valueUSD": 0.0076945249139923734,
+      "signature": "4LZCkvcx9mxwPMKC88DE5fCv5M83XkTzfp8rf2fowUrgKMVF4D1UFqzYMgRcEdMSNi2GMKLGHQ36QNrVGeWttJMT"
+    },
     {
       "timestamp": "2026-10-15T05:18:27Z",
       "wallet": "Trader3",
