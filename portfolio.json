@@ -3,7 +3,7 @@
   "cashUSD": 0.06925072422593136,
   "holdingsUSD": 764.6236246463022,
   "totalValueUSD": 764.6928753705282,
-  "updatedAt": "2026-10-17T04:56:04Z",
+  "updatedAt": "2026-10-17T08:56:53Z",
   "positions": {
     "3mCDpJND5YAcnGoAEmD7BLxDr58xtPWDPSdpww3Lpump": {
       "symbol": "meme",
@@ -532,6 +532,29 @@
     }
   },
   "tradeLog": [
+    {
+      "timestamp": "2026-10-17T08:56:48Z",
+      "wallet": "Trader3",
+      "action": "SELL",
+      "mint": "9Ez5d5vCyGjVgTfdK5TuFw5RLRyS19Rf9xCc7aJBpump",
+      "symbol": "NEO1",
+      "amount": 2339.927824421148,
+      "price": 2.9595239435670466e-06,
+      "valueUSD": 0.006925072422593137,
+      "pnl": 0.0,
+      "signature": "5YEAutkxSMLvUvQaSvB1cREdiWv9HXP4KU26UepdVBQqh1SXpSFcgrrw1QXxc3k4uQt9JKn8W7cECpJad7BhdkAM"
+    },
+    {
+      "timestamp": "2026-10-17T08:56:48Z",
+      "wallet": "Trader3",
+      "action": "BUY",
+      "mint": "9Ez5d5vCyGjVgTfdK5TuFw5RLRyS19Rf9xCc7aJBpump",
+      "symbol": "NEO1",
+      "amount": 2339.927824421148,
+      "price": 2.9595239435670466e-06,
+      "valueUSD": 0.006925072422593136,
+      "signature": "4zugGz6g5L5jfTjHLchs8L7RFz2om5HVvKc3PbevkLR744cC1A9fYCPwQ3ViJ9giKAMaqRmGvVSqfFeT1eb45kaw"
+    },
     {
       "timestamp": "2026-10-16T12:29:56Z",
       "wallet": "Trader3",
