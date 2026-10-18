@@ -1,9 +1,9 @@
 {
   "startingCashUSD": 1000,
   "cashUSD": 0.06232565180333822,
-  "holdingsUSD": 761.5073058696083,
-  "totalValueUSD": 761.5696315214117,
-  "updatedAt": "2026-10-18T21:10:45Z",
+  "holdingsUSD": 761.4197360576969,
+  "totalValueUSD": 761.4820617095003,
+  "updatedAt": "2026-10-18T23:15:33Z",
   "positions": {
     "3mCDpJND5YAcnGoAEmD7BLxDr58xtPWDPSdpww3Lpump": {
       "symbol": "meme",
@@ -37,8 +37,8 @@
       "symbol": "House",
       "amount": 63211.73315807105,
       "avgCostUSD": 0.0009465089549270477,
-      "lastPriceUSD": 0.0006675676417985129,
-      "valueUSD": 42.198107638330356
+      "lastPriceUSD": 0.0006661823006990609,
+      "valueUSD": 42.11053782641889
     },
     "A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS": {
       "symbol": "ZEC",
