@@ -1,9 +1,9 @@
 {
   "startingCashUSD": 1000,
-  "cashUSD": 0.050483777960703954,
-  "holdingsUSD": 762.2315477623541,
-  "totalValueUSD": 762.2820315403148,
-  "updatedAt": "2026-10-19T13:30:49Z",
+  "cashUSD": 0.04543540016463356,
+  "holdingsUSD": 762.2365961401501,
+  "totalValueUSD": 762.2820315403147,
+  "updatedAt": "2026-10-19T19:28:21Z",
   "positions": {
     "3mCDpJND5YAcnGoAEmD7BLxDr58xtPWDPSdpww3Lpump": {
       "symbol": "meme",
@@ -543,9 +543,27 @@
       "avgCostUSD": 3.637608932840769e-06,
       "lastPriceUSD": 3.637608932840769e-06,
       "valueUSD": 0.0056093086623004405
+    },
+    "FBSECyrSRkwXYCtfJZZgwimxEfJiqQ6eroKckWaspTKM": {
+      "symbol": "PRERICH",
+      "amount": 1627.6165276448628,
+      "avgCostUSD": 3.1016997617831546e-06,
+      "lastPriceUSD": 3.1016997617831546e-06,
+      "valueUSD": 0.005048377796070396
     }
   },
   "tradeLog": [
+    {
+      "timestamp": "2026-10-19T19:28:14Z",
+      "wallet": "Trader3",
+      "action": "BUY",
+      "mint": "FBSECyrSRkwXYCtfJZZgwimxEfJiqQ6eroKckWaspTKM",
+      "symbol": "PRERICH",
+      "amount": 1627.6165276448628,
+      "price": 3.1016997617831546e-06,
+      "valueUSD": 0.005048377796070396,
+      "signature": "4KdJX5qn8gEaQ1AVZYLj21M6SZE1s8c7fdLEfYW3xAe4dQ9VuENnPuteCsPC5sJECiBqrP5onLVng3VphrBat4YC"
+    },
     {
       "timestamp": "2026-10-19T06:17:59Z",
       "wallet": "Trader3",
