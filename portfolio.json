@@ -1,9 +1,9 @@
 {
   "startingCashUSD": 1000,
-  "cashUSD": 0.06232565180333822,
-  "holdingsUSD": 761.8039077164289,
-  "totalValueUSD": 761.8662333682322,
-  "updatedAt": "2026-10-19T01:18:25Z",
+  "cashUSD": 0.050483777960703954,
+  "holdingsUSD": 763.3267373855557,
+  "totalValueUSD": 763.3772211635164,
+  "updatedAt": "2026-10-19T06:18:10Z",
   "positions": {
     "3mCDpJND5YAcnGoAEmD7BLxDr58xtPWDPSdpww3Lpump": {
       "symbol": "meme",
@@ -37,8 +37,8 @@
       "symbol": "House",
       "amount": 63211.73315807105,
       "avgCostUSD": 0.0009465089549270477,
-      "lastPriceUSD": 0.0006722598378830415,
-      "valueUSD": 42.49470948515093
+      "lastPriceUSD": 0.0006956134317350572,
+      "valueUSD": 43.970930628006506
     },
     "A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS": {
       "symbol": "ZEC",
@@ -196,10 +196,10 @@
     },
     "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh": {
       "symbol": "WBTC",
-      "amount": 4.458053607397015e-05,
-      "avgCostUSD": 78041.3716015435,
-      "lastPriceUSD": 81911.5315578697,
-      "valueUSD": 3.651659987489755
+      "amount": 4.465590746312152e-05,
+      "avgCostUSD": 78049.2200276837,
+      "lastPriceUSD": 82691.39325291208,
+      "valueUSD": 3.6926592050986327
     },
     "6UpQcMAb5xMzxc7ZfPaVMgx3KqsvKZdT5U718BzD5We2": {
       "symbol": "wXRP",
@@ -536,9 +536,61 @@
       "avgCostUSD": 3.114822520369315e-06,
       "lastPriceUSD": 3.114822520369315e-06,
       "valueUSD": 0.006925072422593135
+    },
+    "AiNx6MbevSFpvQ1X2hMpuCoLfqVpwmnP2RdS6W7Ypump": {
+      "symbol": "BITGOLD",
+      "amount": 1542.0318032702555,
+      "avgCostUSD": 3.637608932840769e-06,
+      "lastPriceUSD": 3.637608932840769e-06,
+      "valueUSD": 0.0056093086623004405
     }
   },
   "tradeLog": [
+    {
+      "timestamp": "2026-10-19T06:17:59Z",
+      "wallet": "Trader3",
+      "action": "BUY",
+      "mint": "AiNx6MbevSFpvQ1X2hMpuCoLfqVpwmnP2RdS6W7Ypump",
+      "symbol": "BITGOLD",
+      "amount": 1542.0318032702555,
+      "price": 3.637608932840769e-06,
+      "valueUSD": 0.0056093086623004405,
+      "signature": "4DbykFHXLi9gNvmnmt5y8vU96eQDKdb97LjNhg9rYrbJcZcqkAE3i5p7hUGNsiLwysH2k53cSEoqzMFYtTLCnzwq"
+    },
+    {
+      "timestamp": "2026-10-19T06:17:57Z",
+      "wallet": "Trader3",
+      "action": "SELL",
+      "mint": "AiNx6MbevSFpvQ1X2hMpuCoLfqVpwmnP2RdS6W7Ypump",
+      "symbol": "BITGOLD",
+      "amount": 1542.0318032702555,
+      "price": 3.637608932840769e-06,
+      "valueUSD": 0.0056093086623004405,
+      "pnl": 0.0,
+      "signature": "4EJ43rjVJr5fHgo88C8ESpoY8Z1yrgHyivyZLka6ah3pEH1G9aEDLQ9USsMrdbzUEZ4nXqShdqsK4g6hLxw9VUnp"
+    },
+    {
+      "timestamp": "2026-10-19T06:17:56Z",
+      "wallet": "Trader3",
+      "action": "BUY",
+      "mint": "AiNx6MbevSFpvQ1X2hMpuCoLfqVpwmnP2RdS6W7Ypump",
+      "symbol": "BITGOLD",
+      "amount": 1542.0318032702555,
+      "price": 3.637608932840769e-06,
+      "valueUSD": 0.0056093086623004405,
+      "signature": "3mthwKaAVGyqvTmmnQcGLVZK7TyjyCHgwR5i9Qtn3g9EhxF8G6MRKDMF42Airu5sZFVBcPgXEBLM11AZPmPCLWGc"
+    },
+    {
+      "timestamp": "2026-10-19T06:17:56Z",
+      "wallet": "Trader3",
+      "action": "BUY",
+      "mint": "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh",
+      "symbol": "WBTC",
+      "amount": 7.537138915136533e-08,
+      "price": 82691.39325291208,
+      "valueUSD": 0.006232565180333822,
+      "signature": "5DFmpuqciBDE3rZWh9EEsNMBws4CZRLcfNS5PehDh4bjmDgvFnwiKG5SZUc77uNmHM2V176LYnesP8NzMzetwtuL"
+    },
     {
       "timestamp": "2026-10-18T18:53:00Z",
       "wallet": "Trader3",
