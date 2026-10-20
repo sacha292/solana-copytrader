@@ -1,9 +1,9 @@
 {
   "startingCashUSD": 1000,
-  "cashUSD": 0.033122406720017865,
-  "holdingsUSD": 762.572380278101,
+  "cashUSD": 0.029810166048016076,
+  "holdingsUSD": 762.575692518773,
   "totalValueUSD": 762.6055026848211,
-  "updatedAt": "2026-10-20T20:14:25Z",
+  "updatedAt": "2026-10-20T23:12:55Z",
   "positions": {
     "3mCDpJND5YAcnGoAEmD7BLxDr58xtPWDPSdpww3Lpump": {
       "symbol": "meme",
@@ -571,9 +571,50 @@
       "avgCostUSD": 8.979783545674134e-06,
       "lastPriceUSD": 8.979783545674134e-06,
       "valueUSD": 0.0036802674133353183
+    },
+    "Pren1FvFX6J3E4kXhJuCiAD5aDmGEb7qJRncwA8Lkhw": {
+      "symbol": "ANTHROPIC",
+      "amount": 3.3094061107092613e-06,
+      "avgCostUSD": 1000.8565166068174,
+      "lastPriceUSD": 1000.8565166068174,
+      "valueUSD": 0.003312240672001787
     }
   },
   "tradeLog": [
+    {
+      "timestamp": "2026-10-20T23:12:52Z",
+      "wallet": "Trader3",
+      "action": "SELL",
+      "mint": "6zGnm41C6rC7hDY5muLBS7adagZVMtUzBCUbwFGCpump",
+      "symbol": "SCORPION",
+      "amount": 747.907758477362,
+      "price": 3.985807836611496e-06,
+      "valueUSD": 0.0029810166048016076,
+      "pnl": 0.0,
+      "signature": "48RzWqnEzQ4FA7v5jLNVrTeBiyeJnf9U4zVnUYHftb8gmnpr3j3owHYtSakousotaKQNqv9MTaRjkqjoMUvNsWDv"
+    },
+    {
+      "timestamp": "2026-10-20T23:12:51Z",
+      "wallet": "Trader3",
+      "action": "BUY",
+      "mint": "6zGnm41C6rC7hDY5muLBS7adagZVMtUzBCUbwFGCpump",
+      "symbol": "SCORPION",
+      "amount": 747.907758477362,
+      "price": 3.985807836611496e-06,
+      "valueUSD": 0.0029810166048016076,
+      "signature": "u814gWBhGBYdWazNpr3LoXtXnbGmFqZZJVivdytn5gpfjAQCSePREMaTRSjP6RFYxEcLpy5UpPgpQJ7wp94yCHm"
+    },
+    {
+      "timestamp": "2026-10-20T23:12:50Z",
+      "wallet": "Trader3",
+      "action": "BUY",
+      "mint": "Pren1FvFX6J3E4kXhJuCiAD5aDmGEb7qJRncwA8Lkhw",
+      "symbol": "ANTHROPIC",
+      "amount": 3.3094061107092613e-06,
+      "price": 1000.8565166068174,
+      "valueUSD": 0.003312240672001787,
+      "signature": "3RWvQg6gR313Zbn4jPkgd4V4wwQ1br3aJoGsDNLoajkxeaBHRZdMg7PStSbHanWqAuHKSTaH2jn8iWna3y8BsbBe"
+    },
     {
       "timestamp": "2026-10-20T20:14:17Z",
       "wallet": "Trader3",
