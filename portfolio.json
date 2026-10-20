@@ -1,9 +1,9 @@
 {
   "startingCashUSD": 1000,
-  "cashUSD": 0.04543540016463356,
-  "holdingsUSD": 762.249573517066,
+  "cashUSD": 0.0408918601481702,
+  "holdingsUSD": 762.2541170570825,
   "totalValueUSD": 762.2950089172306,
-  "updatedAt": "2026-10-20T12:02:59Z",
+  "updatedAt": "2026-10-20T16:51:35Z",
   "positions": {
     "3mCDpJND5YAcnGoAEmD7BLxDr58xtPWDPSdpww3Lpump": {
       "symbol": "meme",
@@ -550,9 +550,50 @@
       "avgCostUSD": 3.1016997617831546e-06,
       "lastPriceUSD": 3.1016997617831546e-06,
       "valueUSD": 0.005048377796070396
+    },
+    "ABNB56TteaTZG1S3DY2W8VMncQmHMvNCGaZgAba49CLP": {
+      "symbol": "ABNB",
+      "amount": 2.5766289505138104e-05,
+      "avgCostUSD": 176.33660506520818,
+      "lastPriceUSD": 176.33660506520818,
+      "valueUSD": 0.004543540016463356
     }
   },
   "tradeLog": [
+    {
+      "timestamp": "2026-10-20T16:51:33Z",
+      "wallet": "Trader3",
+      "action": "SELL",
+      "mint": "39ASXk1wt4rD6FmRfnpcJZeey3faBAGC5YpsSW46pump",
+      "symbol": "CHILLHOUSE",
+      "amount": 278.0260955318313,
+      "price": 1.4707921596333923e-05,
+      "valueUSD": 0.00408918601481702,
+      "pnl": 0.0,
+      "signature": "bYeWBfEC7sBBRtXzeRZkrnFB9mHmdPszNBDBEB4PhnM1CE6XbK2g3fh31ZLNPrJy1C4vSadPoDBroCtS7wmqbw5"
+    },
+    {
+      "timestamp": "2026-10-20T16:51:33Z",
+      "wallet": "Trader3",
+      "action": "BUY",
+      "mint": "39ASXk1wt4rD6FmRfnpcJZeey3faBAGC5YpsSW46pump",
+      "symbol": "CHILLHOUSE",
+      "amount": 278.0260955318313,
+      "price": 1.4707921596333923e-05,
+      "valueUSD": 0.00408918601481702,
+      "signature": "3ERMyWtLwPsdHvfoxb66MGTZPYzkc2mt4AkD41ixFEBPAjm3ywaexdsEAQhpwyjk7sM557RQ1YocGWdxviN1hJ7d"
+    },
+    {
+      "timestamp": "2026-10-20T16:51:33Z",
+      "wallet": "Trader3",
+      "action": "BUY",
+      "mint": "ABNB56TteaTZG1S3DY2W8VMncQmHMvNCGaZgAba49CLP",
+      "symbol": "ABNB",
+      "amount": 2.5766289505138104e-05,
+      "price": 176.33660506520818,
+      "valueUSD": 0.004543540016463356,
+      "signature": "3XQNgsxyYpcBUVUXtQwx1gQd9Me5P699GLssvNjCAZW4cBk4uaQxxpbJYEMmt2XGfTRBwGFxaq7gPBx1X8WPxsF4"
+    },
     {
       "timestamp": "2026-10-19T19:28:14Z",
       "wallet": "Trader3",
