@@ -1,9 +1,9 @@
 {
   "startingCashUSD": 1000,
-  "cashUSD": 0.0408918601481702,
-  "holdingsUSD": 762.2541170570825,
-  "totalValueUSD": 762.2950089172306,
-  "updatedAt": "2026-10-20T16:51:35Z",
+  "cashUSD": 0.033122406720017865,
+  "holdingsUSD": 762.572380278101,
+  "totalValueUSD": 762.6055026848211,
+  "updatedAt": "2026-10-20T20:14:25Z",
   "positions": {
     "3mCDpJND5YAcnGoAEmD7BLxDr58xtPWDPSdpww3Lpump": {
       "symbol": "meme",
@@ -37,8 +37,8 @@
       "symbol": "House",
       "amount": 63211.73315807105,
       "avgCostUSD": 0.0009465089549270477,
-      "lastPriceUSD": 0.0006784929986727419,
-      "valueUSD": 42.888718381720814
+      "lastPriceUSD": 0.0006834049628299998,
+      "valueUSD": 43.199212149311414
     },
     "A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS": {
       "symbol": "ZEC",
@@ -557,9 +557,68 @@
       "avgCostUSD": 176.33660506520818,
       "lastPriceUSD": 176.33660506520818,
       "valueUSD": 0.004543540016463356
+    },
+    "DJTu7vi8norVzdVAffgvb39VP7wjKeTsgaMBJrzfxvoF": {
+      "symbol": "DJT",
+      "amount": 0.0006256281343987428,
+      "avgCostUSD": 6.536128716057366,
+      "lastPriceUSD": 6.536128716057366,
+      "valueUSD": 0.00408918601481702
+    },
+    "J21LUTsBLBmjeoZxuvK5t1UyRB3U6R8mFfduTxQCpump": {
+      "symbol": "SHITHOUSE",
+      "amount": 409.8392121164466,
+      "avgCostUSD": 8.979783545674134e-06,
+      "lastPriceUSD": 8.979783545674134e-06,
+      "valueUSD": 0.0036802674133353183
     }
   },
   "tradeLog": [
+    {
+      "timestamp": "2026-10-20T20:14:17Z",
+      "wallet": "Trader3",
+      "action": "BUY",
+      "mint": "J21LUTsBLBmjeoZxuvK5t1UyRB3U6R8mFfduTxQCpump",
+      "symbol": "SHITHOUSE",
+      "amount": 409.8392121164466,
+      "price": 8.979783545674134e-06,
+      "valueUSD": 0.0036802674133353183,
+      "signature": "5hExMpBwnEMWi7G6Pp1cJogRUoTMv3UKw1XviVYhdavnerGuT4xwePk7xZWSe1uQM5cZEGGhabhM7NdbFHc71BFy"
+    },
+    {
+      "timestamp": "2026-10-20T20:14:06Z",
+      "wallet": "Trader3",
+      "action": "SELL",
+      "mint": "J21LUTsBLBmjeoZxuvK5t1UyRB3U6R8mFfduTxQCpump",
+      "symbol": "SHITHOUSE",
+      "amount": 409.8392121164466,
+      "price": 8.979783545674134e-06,
+      "valueUSD": 0.0036802674133353183,
+      "pnl": 0.0,
+      "signature": "2BJy6e8cAAf6UxsGXvas82kxcaizarzpGbjrkhWnecRRUmwXuC2nddUAomLwUgXgfjH3vHvU1JmWCWtzZFmRXpKa"
+    },
+    {
+      "timestamp": "2026-10-20T20:14:06Z",
+      "wallet": "Trader3",
+      "action": "BUY",
+      "mint": "J21LUTsBLBmjeoZxuvK5t1UyRB3U6R8mFfduTxQCpump",
+      "symbol": "SHITHOUSE",
+      "amount": 409.8392121164466,
+      "price": 8.979783545674134e-06,
+      "valueUSD": 0.0036802674133353183,
+      "signature": "32YfMVsBfixcgbK6Yreu9AGVH8ZY9161U1URb6Fse7BFpoQki3rBs4D4VTmyBBeGytRUQyFgZ4zYxQqbjm1ttpZA"
+    },
+    {
+      "timestamp": "2026-10-20T20:14:05Z",
+      "wallet": "Trader3",
+      "action": "BUY",
+      "mint": "DJTu7vi8norVzdVAffgvb39VP7wjKeTsgaMBJrzfxvoF",
+      "symbol": "DJT",
+      "amount": 0.0006256281343987428,
+      "price": 6.536128716057366,
+      "valueUSD": 0.00408918601481702,
+      "signature": "5bsbgvQPd24zM5MLZQZfzpDVJqJAZ2BfeUjjJY8NABeoKyHnR3m8Kf2z25zPG8LXCWX2Q9hdYSs4AaKjrzyhRuHX"
+    },
     {
       "timestamp": "2026-10-20T16:51:33Z",
       "wallet": "Trader3",
