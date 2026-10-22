@@ -1,9 +1,9 @@
 {
   "startingCashUSD": 1000,
-  "cashUSD": 0.02682914944321447,
-  "holdingsUSD": 761.9632398906398,
-  "totalValueUSD": 761.990069040083,
-  "updatedAt": "2026-10-22T06:49:37Z",
+  "cashUSD": 0.021731611049003716,
+  "holdingsUSD": 762.2319602382519,
+  "totalValueUSD": 762.2536918493008,
+  "updatedAt": "2026-10-22T12:31:37Z",
   "positions": {
     "3mCDpJND5YAcnGoAEmD7BLxDr58xtPWDPSdpww3Lpump": {
       "symbol": "meme",
@@ -37,8 +37,8 @@
       "symbol": "House",
       "amount": 63211.73315807105,
       "avgCostUSD": 0.0009465089549270477,
-      "lastPriceUSD": 0.0006725782933105867,
-      "valueUSD": 42.51483960465965
+      "lastPriceUSD": 0.0006767487660384654,
+      "valueUSD": 42.778462413877335
     },
     "A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS": {
       "symbol": "ZEC",
@@ -578,9 +578,68 @@
       "avgCostUSD": 1000.8565166068174,
       "lastPriceUSD": 1000.8565166068174,
       "valueUSD": 0.003312240672001787
+    },
+    "BABANGA4JE7Kkam4nTrALAwAVgsNJUuFJnnkF7S16BZp": {
+      "symbol": "BABA",
+      "amount": 2.679259376822158e-05,
+      "avgCostUSD": 100.1364394776748,
+      "lastPriceUSD": 100.1364394776748,
+      "valueUSD": 0.002682914944321447
+    },
+    "CWFhrnopkTFAsHZ587yPy27Qz8vGfVBsJoubkozvpump": {
+      "symbol": "BIAOQING",
+      "amount": 613.0326677695136,
+      "avgCostUSD": 3.938816929079456e-06,
+      "lastPriceUSD": 3.938816929079456e-06,
+      "valueUSD": 0.0024146234498893023
     }
   },
   "tradeLog": [
+    {
+      "timestamp": "2026-10-22T12:31:30Z",
+      "wallet": "Trader3",
+      "action": "BUY",
+      "mint": "CWFhrnopkTFAsHZ587yPy27Qz8vGfVBsJoubkozvpump",
+      "symbol": "BIAOQING",
+      "amount": 613.0326677695136,
+      "price": 3.938816929079456e-06,
+      "valueUSD": 0.0024146234498893023,
+      "signature": "5op58CoNoY9gDG17Gk1GTBiGyTfGpXvF4PD1UUwhwBb5kU7P5MsLFdJxMB8BGFHjRm4oJnKmLmjhP2oyXjztWH8"
+    },
+    {
+      "timestamp": "2026-10-22T12:31:20Z",
+      "wallet": "Trader3",
+      "action": "SELL",
+      "mint": "CWFhrnopkTFAsHZ587yPy27Qz8vGfVBsJoubkozvpump",
+      "symbol": "BIAOQING",
+      "amount": 613.0326677695136,
+      "price": 3.938816929079456e-06,
+      "valueUSD": 0.0024146234498893023,
+      "pnl": 0.0,
+      "signature": "5QAdYUxFfx5EP8LzVZDN4oYJvtxuzSuNMSBsarE6a5skUsKC3BwGhkRRWukC8bgKLMXacyWNRS2GbCQyUKdBuYe7"
+    },
+    {
+      "timestamp": "2026-10-22T12:31:20Z",
+      "wallet": "Trader3",
+      "action": "BUY",
+      "mint": "CWFhrnopkTFAsHZ587yPy27Qz8vGfVBsJoubkozvpump",
+      "symbol": "BIAOQING",
+      "amount": 613.0326677695136,
+      "price": 3.938816929079456e-06,
+      "valueUSD": 0.0024146234498893023,
+      "signature": "2zCesQRY9jcQHAgEjhBdZtfmCkHJm12ptrtaEK8mjAKdrhMPRGVfoXUnCdLWihq3URcxZkfTLt9qQymhpKu8EBWW"
+    },
+    {
+      "timestamp": "2026-10-22T12:31:19Z",
+      "wallet": "Trader3",
+      "action": "BUY",
+      "mint": "BABANGA4JE7Kkam4nTrALAwAVgsNJUuFJnnkF7S16BZp",
+      "symbol": "BABA",
+      "amount": 2.679259376822158e-05,
+      "price": 100.1364394776748,
+      "valueUSD": 0.002682914944321447,
+      "signature": "qEn1C4yFRBW7zyZoo5eaRALb1nEk6DznR9Ps1JDntvjVGHJAU5Un2xxHnz2X89diy6Lu1CntKDh64T5UykQGD6F"
+    },
     {
       "timestamp": "2026-10-21T17:18:57Z",
       "wallet": "Trader3",
