@@ -1,9 +1,9 @@
 {
   "startingCashUSD": 1000,
-  "cashUSD": 0.019558449944103343,
-  "holdingsUSD": 762.5025036454613,
-  "totalValueUSD": 762.5220620954054,
-  "updatedAt": "2026-10-23T12:10:53Z",
+  "cashUSD": 0.01760260494969301,
+  "holdingsUSD": 762.5118046429918,
+  "totalValueUSD": 762.5294072479415,
+  "updatedAt": "2026-10-23T17:11:04Z",
   "positions": {
     "3mCDpJND5YAcnGoAEmD7BLxDr58xtPWDPSdpww3Lpump": {
       "symbol": "meme",
@@ -394,8 +394,8 @@
       "symbol": "YIELD",
       "amount": 23829.347483930833,
       "avgCostUSD": 3.289185519954495e-06,
-      "lastPriceUSD": 3.2821792417532644e-06,
-      "valueUSD": 0.07821218965628315
+      "lastPriceUSD": 3.7033114352838008e-06,
+      "valueUSD": 0.08824749503259231
     },
     "5cZmpnaMnAHGBjY8vX5cLe9HH1ABkTTUVCpgDDCJCKXK": {
       "symbol": "CHILLGUY",
@@ -569,15 +569,15 @@
       "symbol": "SHITHOUSE",
       "amount": 409.8392121164466,
       "avgCostUSD": 8.979783545674134e-06,
-      "lastPriceUSD": 8.979783545674134e-06,
-      "valueUSD": 0.0036802674133353183
+      "lastPriceUSD": 2.410794947931208e-06,
+      "valueUSD": 0.0009880383020344362
     },
     "Pren1FvFX6J3E4kXhJuCiAD5aDmGEb7qJRncwA8Lkhw": {
       "symbol": "ANTHROPIC",
       "amount": 3.3094061107092613e-06,
       "avgCostUSD": 1000.8565166068174,
-      "lastPriceUSD": 1000.8565166068174,
-      "valueUSD": 0.003312240672001787
+      "lastPriceUSD": 1001.4839013783331,
+      "valueUSD": 0.003314316942998407
     },
     "BABANGA4JE7Kkam4nTrALAwAVgsNJUuFJnnkF7S16BZp": {
       "symbol": "BABA",
@@ -599,9 +599,50 @@
       "avgCostUSD": 3.0417164077701774e-06,
       "lastPriceUSD": 3.0417164077701774e-06,
       "valueUSD": 0.0021731611049003717
+    },
+    "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn": {
+      "symbol": "PUMP",
+      "amount": 0.4298748808460125,
+      "avgCostUSD": 0.004549800608402953,
+      "lastPriceUSD": 0.004549800608402953,
+      "valueUSD": 0.0019558449944103344
     }
   },
   "tradeLog": [
+    {
+      "timestamp": "2026-10-23T17:10:54Z",
+      "wallet": "Trader3",
+      "action": "SELL",
+      "mint": "ApmHrzFDVz2Z8F2ycT6TnTofEqkrk2UgtsA9S23Ypump",
+      "symbol": "YAHU",
+      "amount": 565.7682969812507,
+      "price": 3.111274534754702e-06,
+      "valueUSD": 0.001760260494969301,
+      "pnl": 0.0,
+      "signature": "1yYqZ1wgfJeQFmPRhA7NR5WZviu17T8pi21EpxSPwTr9jZpeMb3EybBfzczCPFcbWbykMvwjGUhTVkL2o5uWDh6"
+    },
+    {
+      "timestamp": "2026-10-23T17:10:54Z",
+      "wallet": "Trader3",
+      "action": "BUY",
+      "mint": "ApmHrzFDVz2Z8F2ycT6TnTofEqkrk2UgtsA9S23Ypump",
+      "symbol": "YAHU",
+      "amount": 565.7682969812507,
+      "price": 3.111274534754702e-06,
+      "valueUSD": 0.001760260494969301,
+      "signature": "5h2rYiG5uhbTfSKrnp1LV9tnKNgukNCARG6MCfGLANkksmW383PQrnryDLoHzkGuHbuACGLs6UHiq8hhFPJrCydV"
+    },
+    {
+      "timestamp": "2026-10-23T17:10:53Z",
+      "wallet": "Trader3",
+      "action": "BUY",
+      "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+      "symbol": "PUMP",
+      "amount": 0.4298748808460125,
+      "price": 0.004549800608402953,
+      "valueUSD": 0.0019558449944103344,
+      "signature": "5WibUydwMWC2BSdqpFEu8ptP73LVpgduneK75pbKKRnmuFgZm9reV3cpMMPvNFw7NviqmMeLdDJZGR6YJFqcMiT9"
+    },
     {
       "timestamp": "2026-10-23T12:10:50Z",
       "wallet": "Trader3",
