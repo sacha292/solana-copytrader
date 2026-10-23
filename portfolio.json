@@ -1,9 +1,9 @@
 {
   "startingCashUSD": 1000,
-  "cashUSD": 0.021731611049003716,
-  "holdingsUSD": 762.5003304843564,
-  "totalValueUSD": 762.5220620954053,
-  "updatedAt": "2026-10-23T06:45:00Z",
+  "cashUSD": 0.019558449944103343,
+  "holdingsUSD": 762.5025036454613,
+  "totalValueUSD": 762.5220620954054,
+  "updatedAt": "2026-10-23T12:10:53Z",
   "positions": {
     "3mCDpJND5YAcnGoAEmD7BLxDr58xtPWDPSdpww3Lpump": {
       "symbol": "meme",
@@ -592,9 +592,27 @@
       "avgCostUSD": 3.938816929079456e-06,
       "lastPriceUSD": 3.938816929079456e-06,
       "valueUSD": 0.0024146234498893023
+    },
+    "78NCtRvB2xT8jdBnuZJje5CEWLrvpo4rrf4UxRTopump": {
+      "symbol": "TURKROACH",
+      "amount": 714.4522412901318,
+      "avgCostUSD": 3.0417164077701774e-06,
+      "lastPriceUSD": 3.0417164077701774e-06,
+      "valueUSD": 0.0021731611049003717
     }
   },
   "tradeLog": [
+    {
+      "timestamp": "2026-10-23T12:10:50Z",
+      "wallet": "Trader3",
+      "action": "BUY",
+      "mint": "78NCtRvB2xT8jdBnuZJje5CEWLrvpo4rrf4UxRTopump",
+      "symbol": "TURKROACH",
+      "amount": 714.4522412901318,
+      "price": 3.0417164077701774e-06,
+      "valueUSD": 0.0021731611049003717,
+      "signature": "5JyGwWvUkZPtagdm2rDojVD4NYNFkk9qu6hFQQjswYZRcPHqERCneBRG9jsJZPNeQ1mneoV9wQytENdZDRn6PA53"
+    },
     {
       "timestamp": "2026-10-22T12:31:30Z",
       "wallet": "Trader3",
