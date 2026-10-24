@@ -1,9 +1,9 @@
 {
   "startingCashUSD": 1000,
-  "cashUSD": 0.012974880108418716,
-  "holdingsUSD": 759.6598965716075,
-  "totalValueUSD": 759.672871451716,
-  "updatedAt": "2026-10-24T17:37:50Z",
+  "cashUSD": 0.011677392097576844,
+  "holdingsUSD": 759.6157711865559,
+  "totalValueUSD": 759.6274485786535,
+  "updatedAt": "2026-10-24T19:44:48Z",
   "positions": {
     "3mCDpJND5YAcnGoAEmD7BLxDr58xtPWDPSdpww3Lpump": {
       "symbol": "meme",
@@ -37,8 +37,8 @@
       "symbol": "House",
       "amount": 63211.73315807105,
       "avgCostUSD": 0.0009465089549270477,
-      "lastPriceUSD": 0.0006358063820048755,
-      "valueUSD": 40.19042335949078
+      "lastPriceUSD": 0.000635087799064761,
+      "valueUSD": 40.145000486428316
     },
     "A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS": {
       "symbol": "ZEC",
@@ -613,9 +613,50 @@
       "avgCostUSD": 6.31170250027354e-06,
       "lastPriceUSD": 6.31170250027354e-06,
       "valueUSD": 0.0028674643463049913
+    },
+    "LMT3i1BHgixFqPUgcyteJhnEz2dpy9i3cYy4pi9BoeV": {
+      "symbol": "LMT",
+      "amount": 2.1462217021423727e-06,
+      "avgCostUSD": 604.5451919280803,
+      "lastPriceUSD": 604.5451919280803,
+      "valueUSD": 0.001297488010841872
     }
   },
   "tradeLog": [
+    {
+      "timestamp": "2026-10-24T19:44:44Z",
+      "wallet": "Trader3",
+      "action": "SELL",
+      "mint": "FE6mnRqP35U26tyJcKngMdgwmXpKvCkiazhNn3iKpump",
+      "symbol": "LMI",
+      "amount": 229.89034124023246,
+      "price": 5.0795488120895516e-06,
+      "valueUSD": 0.0011677392097576844,
+      "pnl": 0.0,
+      "signature": "5ge9KLnEwsexWzecmRwanifXHAYuFteAAnkXCSiemLRKDgn7nLKAPcp3gWHzAu8wf7vtdawrH6B2Vtz3MpB83SWw"
+    },
+    {
+      "timestamp": "2026-10-24T19:44:35Z",
+      "wallet": "Trader3",
+      "action": "BUY",
+      "mint": "FE6mnRqP35U26tyJcKngMdgwmXpKvCkiazhNn3iKpump",
+      "symbol": "LMI",
+      "amount": 229.89034124023246,
+      "price": 5.0795488120895516e-06,
+      "valueUSD": 0.0011677392097576844,
+      "signature": "5Qi8eAbz9LFvdoqtkm4YwTZT8Q41mi8JvZBrDD6G8JdjwyKeKHz3LYspq1cJ5SCs7hEZTYyCHUHC7tax942UreEg"
+    },
+    {
+      "timestamp": "2026-10-24T19:44:34Z",
+      "wallet": "Trader3",
+      "action": "BUY",
+      "mint": "LMT3i1BHgixFqPUgcyteJhnEz2dpy9i3cYy4pi9BoeV",
+      "symbol": "LMT",
+      "amount": 2.1462217021423727e-06,
+      "price": 604.5451919280803,
+      "valueUSD": 0.0012974880108418717,
+      "signature": "5yPRcP2Websceu2FVB5ZwF3DpCPhSASextKX5Qj2RjutC35BWNH3CAUxHk8Tv6cYMcaH2F18gqq4UABQuuNkp438"
+    },
     {
       "timestamp": "2026-10-24T14:43:14Z",
       "wallet": "Trader3",
