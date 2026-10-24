@@ -1,9 +1,9 @@
 {
   "startingCashUSD": 1000,
-  "cashUSD": 0.015842344454723708,
-  "holdingsUSD": 759.1903295994875,
-  "totalValueUSD": 759.2061719439423,
-  "updatedAt": "2026-10-24T11:27:12Z",
+  "cashUSD": 0.012974880108418716,
+  "holdingsUSD": 759.6479258567163,
+  "totalValueUSD": 759.6609007368247,
+  "updatedAt": "2026-10-24T14:43:30Z",
   "positions": {
     "3mCDpJND5YAcnGoAEmD7BLxDr58xtPWDPSdpww3Lpump": {
       "symbol": "meme",
@@ -37,8 +37,8 @@
       "symbol": "House",
       "amount": 63211.73315807105,
       "avgCostUSD": 0.0009465089549270477,
-      "lastPriceUSD": 0.0006284232668068358,
-      "valueUSD": 39.72372385171699
+      "lastPriceUSD": 0.0006356170071168106,
+      "valueUSD": 40.17845264459958
     },
     "A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS": {
       "symbol": "ZEC",
@@ -606,9 +606,61 @@
       "avgCostUSD": 0.004549800608402953,
       "lastPriceUSD": 0.004549800608402953,
       "valueUSD": 0.0019558449944103344
+    },
+    "ALCfE7fkvWVxDGjSUWp9RTq931k8tuBaLMPVUHrapump": {
+      "symbol": "ECASH",
+      "amount": 454.3091735044102,
+      "avgCostUSD": 6.31170250027354e-06,
+      "lastPriceUSD": 6.31170250027354e-06,
+      "valueUSD": 0.0028674643463049913
     }
   },
   "tradeLog": [
+    {
+      "timestamp": "2026-10-24T14:43:14Z",
+      "wallet": "Trader3",
+      "action": "BUY",
+      "mint": "ALCfE7fkvWVxDGjSUWp9RTq931k8tuBaLMPVUHrapump",
+      "symbol": "ECASH",
+      "amount": 228.4095844690681,
+      "price": 6.31170250027354e-06,
+      "valueUSD": 0.0014416533453798575,
+      "signature": "4WaMnT5roUNfAdzgHFHsyoTwW25mPjaKwvCHyn9DmmyG7JBZU4egCmGy2ucJqEfLoV5wjnGDmA5aUnfz4haZkQgc"
+    },
+    {
+      "timestamp": "2026-10-24T14:43:14Z",
+      "wallet": "Trader3",
+      "action": "SELL",
+      "mint": "B1yxy29wwVLY2Sdj7WFJFKKiSKEKLtzxx19V3jGKpump",
+      "symbol": "ECASH",
+      "amount": 428.8934780024413,
+      "price": 3.693771359851159e-06,
+      "valueUSD": 0.001584234445472371,
+      "pnl": 0.0,
+      "signature": "44uREKWTt9rBFsMueHQQmreURR2tSBwHtzazJpcgF168AL2FdM2PrW6SgbfJPHkLBAa5eT2nFJJqmknTQY32AASY"
+    },
+    {
+      "timestamp": "2026-10-24T14:43:13Z",
+      "wallet": "Trader3",
+      "action": "BUY",
+      "mint": "ALCfE7fkvWVxDGjSUWp9RTq931k8tuBaLMPVUHrapump",
+      "symbol": "ECASH",
+      "amount": 225.89958903534207,
+      "price": 6.31170250027354e-06,
+      "valueUSD": 0.0014258110009251338,
+      "signature": "4EmTFrdtZCFtzF45bfMMU264fkjVr6S8JmzZq3A1goZPd3rNE3fHLyWr4smYzPxSsEcszPsHzt1JsLZHoHUTctpx"
+    },
+    {
+      "timestamp": "2026-10-24T14:43:13Z",
+      "wallet": "Trader3",
+      "action": "BUY",
+      "mint": "B1yxy29wwVLY2Sdj7WFJFKKiSKEKLtzxx19V3jGKpump",
+      "symbol": "ECASH",
+      "amount": 428.8934780024413,
+      "price": 3.693771359851159e-06,
+      "valueUSD": 0.001584234445472371,
+      "signature": "5MMCdyqA1bAMZQ5kxXhTYV7iQEL9ZT1mXKmJfpNFBXVqs3ScW7pk3eoiqjy4XNT9yb7U9psnkdVessHtqPmpGhrB"
+    },
     {
       "timestamp": "2026-10-24T01:41:15Z",
       "wallet": "Trader3",
