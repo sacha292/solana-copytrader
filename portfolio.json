@@ -1,9 +1,9 @@
 {
   "startingCashUSD": 1000,
-  "cashUSD": 0.01760260494969301,
-  "holdingsUSD": 761.8686324197463,
-  "totalValueUSD": 761.886235024696,
-  "updatedAt": "2026-10-23T23:19:05Z",
+  "cashUSD": 0.015842344454723708,
+  "holdingsUSD": 761.8702661845068,
+  "totalValueUSD": 761.8861085289616,
+  "updatedAt": "2026-10-24T01:41:23Z",
   "positions": {
     "3mCDpJND5YAcnGoAEmD7BLxDr58xtPWDPSdpww3Lpump": {
       "symbol": "meme",
@@ -553,10 +553,10 @@
     },
     "ABNB56TteaTZG1S3DY2W8VMncQmHMvNCGaZgAba49CLP": {
       "symbol": "ABNB",
-      "amount": 2.5766289505138104e-05,
-      "avgCostUSD": 176.33660506520818,
-      "lastPriceUSD": 176.33660506520818,
-      "valueUSD": 0.004543540016463356
+      "amount": 3.603455457612397e-05,
+      "avgCostUSD": 174.93765596895915,
+      "lastPriceUSD": 171.4272550231601,
+      "valueUSD": 0.006177304776967184
     },
     "DJTu7vi8norVzdVAffgvb39VP7wjKeTsgaMBJrzfxvoF": {
       "symbol": "DJT",
@@ -609,6 +609,40 @@
     }
   },
   "tradeLog": [
+    {
+      "timestamp": "2026-10-24T01:41:15Z",
+      "wallet": "Trader3",
+      "action": "SELL",
+      "mint": "GA6XJMwftSRoPBQK8ADUiNKy3h8qLf9BWPPS2sxbpump",
+      "symbol": "UNCHILL",
+      "amount": 502.9587482371133,
+      "price": 3.1498297843017224e-06,
+      "valueUSD": 0.001584234445472371,
+      "pnl": 0.0,
+      "signature": "WMYYFcpgSjJyVmxj4yFuSKFud6UiBevfqUomtXVkqWL28z66uUvzyJkVtsQh51keFEgYWwjwhYKhFQEFiZ7t1VW"
+    },
+    {
+      "timestamp": "2026-10-24T01:41:15Z",
+      "wallet": "Trader3",
+      "action": "BUY",
+      "mint": "GA6XJMwftSRoPBQK8ADUiNKy3h8qLf9BWPPS2sxbpump",
+      "symbol": "UNCHILL",
+      "amount": 502.9587482371133,
+      "price": 3.1498297843017224e-06,
+      "valueUSD": 0.001584234445472371,
+      "signature": "2GTAKMKe48tuFi86jbJwGZU5kqMQTfJGaXxg51inx698oovb25ZpY8uraHtDChqoLqztKve3NqnbSKPhE6oHnhgF"
+    },
+    {
+      "timestamp": "2026-10-24T01:41:06Z",
+      "wallet": "Trader3",
+      "action": "BUY",
+      "mint": "ABNB56TteaTZG1S3DY2W8VMncQmHMvNCGaZgAba49CLP",
+      "symbol": "ABNB",
+      "amount": 1.0268265070985866e-05,
+      "price": 171.4272550231601,
+      "valueUSD": 0.001760260494969301,
+      "signature": "2xBpXjAqFyNS6q3H4euLyf97mTbhfe4J7duGBiWyBxc2erW7N9oA27V9aWj8WsngqeSL2NoBAvYSPcA3Nj82vEx2"
+    },
     {
       "timestamp": "2026-10-23T17:10:54Z",
       "wallet": "Trader3",
