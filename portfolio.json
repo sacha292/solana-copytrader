@@ -1,9 +1,9 @@
 {
   "startingCashUSD": 1000,
-  "cashUSD": 0.009458687599037244,
-  "holdingsUSD": 756.8210629167535,
-  "totalValueUSD": 756.8305216043525,
-  "updatedAt": "2026-10-25T19:23:23Z",
+  "cashUSD": 0.00851281883913352,
+  "holdingsUSD": 756.876402188041,
+  "totalValueUSD": 756.8849150068801,
+  "updatedAt": "2026-10-25T21:57:19Z",
   "positions": {
     "3mCDpJND5YAcnGoAEmD7BLxDr58xtPWDPSdpww3Lpump": {
       "symbol": "meme",
@@ -37,8 +37,8 @@
       "symbol": "House",
       "amount": 63211.73315807105,
       "avgCostUSD": 0.0009465089549270477,
-      "lastPriceUSD": 0.0006358138479154997,
-      "valueUSD": 40.19089529264094
+      "lastPriceUSD": 0.0006332361872449243,
+      "valueUSD": 40.027956894160475
     },
     "A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS": {
       "symbol": "ZEC",
@@ -175,10 +175,10 @@
     },
     "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
       "symbol": "STONK",
-      "amount": 19.082172813922817,
-      "avgCostUSD": 0.25010065389058567,
-      "lastPriceUSD": 0.11987406233622196,
-      "valueUSD": 2.2874575734067437
+      "amount": 19.089378701699307,
+      "avgCostUSD": 0.25005579499296304,
+      "lastPriceUSD": 0.13126332094567272,
+      "valueUSD": 2.5057352431746454
     },
     "H6CLc5xY7p3MZSVzw3fZ6j717tDiqC3DWACEf87epump": {
       "symbol": "PONK",
@@ -637,6 +637,40 @@
     }
   },
   "tradeLog": [
+    {
+      "timestamp": "2026-10-25T21:57:01Z",
+      "wallet": "Trader3",
+      "action": "SELL",
+      "mint": "8T3T29edN3DXRzzFxJQgAJEAqhbEWbqAS3U7sLQ1dzZv",
+      "symbol": "AIRDROP",
+      "amount": 307.31498158807034,
+      "price": 2.7700630783253615e-06,
+      "valueUSD": 0.0008512818839133519,
+      "pnl": 0.0,
+      "signature": "59uwJ3f6froMjyBg1zKpqRuenaqvYPi4VddT2f4etepLWtLyej7kmC6ThLhXCMXXtvRmtMY4JCAbTmJ3b9K5zz3f"
+    },
+    {
+      "timestamp": "2026-10-25T21:57:00Z",
+      "wallet": "Trader3",
+      "action": "BUY",
+      "mint": "8T3T29edN3DXRzzFxJQgAJEAqhbEWbqAS3U7sLQ1dzZv",
+      "symbol": "AIRDROP",
+      "amount": 307.31498158807034,
+      "price": 2.7700630783253615e-06,
+      "valueUSD": 0.000851281883913352,
+      "signature": "4HbiYXG3kamvBUjtxfGh1vN8UiiEGuRwvCkf5Ai68tTZNWKKco8SwMWZSraKkNbvy83rQi8JC1J9YCJazm5vPLWH"
+    },
+    {
+      "timestamp": "2026-10-25T21:57:00Z",
+      "wallet": "Trader3",
+      "action": "BUY",
+      "mint": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+      "symbol": "STONK",
+      "amount": 0.007205887776488611,
+      "price": 0.13126332094567272,
+      "valueUSD": 0.0009458687599037245,
+      "signature": "3Hs8JCFvX51zUpYDzkrnJ4DtwWsPNEcLzLcd9tN2B9673RegudE2pWwy86qsEE5YjscidmGj8HHW37Nqs9G5WXMS"
+    },
     {
       "timestamp": "2026-10-25T12:46:38Z",
       "wallet": "Trader3",
