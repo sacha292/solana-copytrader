@@ -1,9 +1,9 @@
 {
   "startingCashUSD": 1000,
-  "cashUSD": 0.00851281883913352,
-  "holdingsUSD": 756.876402188041,
-  "totalValueUSD": 756.8849150068801,
-  "updatedAt": "2026-10-25T21:57:19Z",
+  "cashUSD": 0.006895383259698151,
+  "holdingsUSD": 757.26912624622,
+  "totalValueUSD": 757.2760216294797,
+  "updatedAt": "2026-10-26T01:46:36Z",
   "positions": {
     "3mCDpJND5YAcnGoAEmD7BLxDr58xtPWDPSdpww3Lpump": {
       "symbol": "meme",
@@ -37,8 +37,8 @@
       "symbol": "House",
       "amount": 63211.73315807105,
       "avgCostUSD": 0.0009465089549270477,
-      "lastPriceUSD": 0.0006332361872449243,
-      "valueUSD": 40.027956894160475
+      "lastPriceUSD": 0.0006394234345020383,
+      "valueUSD": 40.41906351676017
     },
     "A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS": {
       "symbol": "ZEC",
@@ -634,9 +634,38 @@
       "avgCostUSD": 2.6818198501121625e-06,
       "lastPriceUSD": 2.6818198501121625e-06,
       "valueUSD": 0.001050965288781916
+    },
+    "24ezAoHy4Yh1XMc59jfkvz6Xk9nr1mjjETcLLxqShsSu": {
+      "symbol": "carti",
+      "amount": 10.19789134530853,
+      "avgCostUSD": 0.00015860490415790305,
+      "lastPriceUSD": 0.00015860490415790308,
+      "valueUSD": 0.0016174355794353688
     }
   },
   "tradeLog": [
+    {
+      "timestamp": "2026-10-26T01:46:16Z",
+      "wallet": "Trader1",
+      "action": "BUY",
+      "mint": "24ezAoHy4Yh1XMc59jfkvz6Xk9nr1mjjETcLLxqShsSu",
+      "symbol": "carti",
+      "amount": 4.83058011093562,
+      "price": 0.00015860490415790308,
+      "valueUSD": 0.0007661536955220168,
+      "signature": "3T3fKDrK8eiiUnVXrH5ANwbSC7HrW2eRQb5Skgsa4F2g9TTRy7zq5B5K6Mzj43s3ipdCU7p9hJgHweKpAG1KFmwD"
+    },
+    {
+      "timestamp": "2026-10-26T01:46:15Z",
+      "wallet": "Trader1",
+      "action": "BUY",
+      "mint": "24ezAoHy4Yh1XMc59jfkvz6Xk9nr1mjjETcLLxqShsSu",
+      "symbol": "carti",
+      "amount": 5.36731123437291,
+      "price": 0.00015860490415790308,
+      "valueUSD": 0.000851281883913352,
+      "signature": "3D3N6ERXVGrDQjtPyDv5fBr99gt39zXym168CSbQBMDSdCFWPcNtxbSK5LMPwXcLoQkxtAWxGhho9UTELMUES1uh"
+    },
     {
       "timestamp": "2026-10-25T21:57:01Z",
       "wallet": "Trader3",
